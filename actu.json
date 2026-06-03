@@ -13,19 +13,6 @@
     "date_added": "2026-06-03"
   },
   {
-    "titre": "GIMP — Éditeur d'images libre",
-    "description": "GIMP (GNU Image Manipulation Program) est l'alternative open-source à Photoshop. Retouche photo, création graphique, design d'icônes. Entièrement gratuit, extensible par plugins, disponible sur toutes les plateformes. Développé en C. 3 500 étoiles sur GitHub.",
-    "url": "https://gitlab.gnome.org/GNOME/gimp",
-    "categorie": "Open Source",
-    "stars": 3500,
-    "lang": "C",
-    "forks": 900,
-    "issues": 340,
-    "license": "GPL-3.0",
-    "date": "2026-06-01",
-    "date_added": "2026-06-03"
-  },
-  {
     "titre": "FFmpeg — Suite multimédia universelle",
     "description": "FFmpeg est la suite de traitement multimédia open-source la plus complète. Convertir, streamer, enregistrer n'importe quel format audio/vidéo. Utilisé par YouTube, VLC, OBS et des milliers d'autres projets. Développé en C. 48 000 étoiles sur GitHub.",
     "url": "https://github.com/FFmpeg/FFmpeg",
