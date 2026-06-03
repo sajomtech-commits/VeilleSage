@@ -1,5 +1,57 @@
 [
   {
+    "titre": "GIMP — Éditeur d'images libre",
+    "description": "GIMP (GNU Image Manipulation Program) est l'alternative open-source à Photoshop. Retouche photo, création graphique, design d'icônes. Entièrement gratuit, extensible par plugins, disponible sur toutes les plateformes. Développé en C. 3 500 étoiles sur GitHub.",
+    "url": "https://gitlab.gnome.org/GNOME/gimp",
+    "categorie": "Open Source",
+    "stars": 3500,
+    "lang": "C",
+    "forks": 900,
+    "issues": 340,
+    "license": "GPL-3.0",
+    "date": "2026-06-01",
+    "date_added": "2026-06-03"
+  },
+  {
+    "titre": "FFmpeg — Suite multimédia universelle",
+    "description": "FFmpeg est la suite de traitement multimédia open-source la plus complète. Convertir, streamer, enregistrer n'importe quel format audio/vidéo. Utilisé par YouTube, VLC, OBS et des milliers d'autres projets. Développé en C. 48 000 étoiles sur GitHub.",
+    "url": "https://github.com/FFmpeg/FFmpeg",
+    "categorie": "Open Source",
+    "stars": 48000,
+    "lang": "C",
+    "forks": 12500,
+    "issues": 230,
+    "license": "LGPL-2.1",
+    "date": "2026-06-02",
+    "date_added": "2026-06-03"
+  },
+  {
+    "titre": "Homebrew — Gestionnaire de paquets macOS",
+    "description": "Homebrew est le gestionnaire de paquets incontournable pour macOS (et Linux). Permet d'installer des milliers d'outils et de bibliothèques open-source en une commande. Simple, extensible, maintenu par la communauté. Développé en Ruby. 42 000 étoiles sur GitHub.",
+    "url": "https://github.com/Homebrew/brew",
+    "categorie": "Open Source",
+    "stars": 42000,
+    "lang": "Ruby",
+    "forks": 9800,
+    "issues": 120,
+    "license": "BSD-2-Clause",
+    "date": "2026-06-03",
+    "date_added": "2026-06-03"
+  },
+  {
+    "titre": "Signal — Messagerie chiffrée open-source",
+    "description": "Signal est l'application de messagerie chiffrée de référence, entièrement open-source. Code audité, chiffrement de bout en bout par défaut, zéro collecte de données. La référence pour la vie privée numérique. Développé en Java/Kotlin.",
+    "url": "https://github.com/signalapp/Signal-Android",
+    "categorie": "Open Source",
+    "stars": 26500,
+    "lang": "Java",
+    "forks": 6300,
+    "issues": 450,
+    "license": "AGPL-3.0",
+    "date": "2026-06-03",
+    "date_added": "2026-06-03"
+  },
+  {
     "titre": "awesome — 😎 Awesome lists about all kinds of interesting topics",
     "description": "😎 Awesome lists about all kinds of interesting topics. 472 633 étoiles sur GitHub.",
     "url": "https://github.com/sindresorhus/awesome",
