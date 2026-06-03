@@ -1,7 +1,7 @@
 [
   {
     "titre": "GIMP — Éditeur d'images libre et gratuit",
-    "description": "Outil extensible pour visualiser dans le domaine d'interface utilisateur. Développé en C. 3 500 étoiles sur GitHub.",
+    "description": "Projet open-source de référence, adopté par une large communauté. Développé en C. 3 500 étoiles sur GitHub.",
     "url": "https://gitlab.gnome.org/GNOME/gimp",
     "categorie": "Open Source",
     "stars": 3500,
@@ -14,7 +14,7 @@
   },
   {
     "titre": "FFmpeg — Suite multimédia universelle",
-    "description": "Projet pour traiter dans le domaine d'interface utilisateur. Développé en C. 48 000 étoiles sur GitHub.",
+    "description": "Projet open-source de référence, adopté par une large communauté. Développé en C. 48 000 étoiles sur GitHub.",
     "url": "https://github.com/FFmpeg/FFmpeg",
     "categorie": "Open Source",
     "stars": 48000,
@@ -27,7 +27,7 @@
   },
   {
     "titre": "Homebrew — Gestionnaire de paquets macOS",
-    "description": "Outil simple d'utilisation et extensible pour d'interface utilisateur dans le domaine open-source. Développé en Ruby. 42 000 étoiles sur GitHub.",
+    "description": "Projet open-source de référence, adopté par une large communauté. Développé en Ruby. 42 000 étoiles sur GitHub.",
     "url": "https://github.com/Homebrew/brew",
     "categorie": "Open Source",
     "stars": 42000,
@@ -40,7 +40,7 @@
   },
   {
     "titre": "Signal — Messagerie chiffrée open-source",
-    "description": "Projet pour open-source. Développé en Java. 26 500 étoiles sur GitHub.",
+    "description": "Projet open-source de référence, adopté par une large communauté. Développé en Java. 26 500 étoiles sur GitHub.",
     "url": "https://github.com/signalapp/Signal-Android",
     "categorie": "Open Source",
     "stars": 26500,
@@ -53,7 +53,7 @@
   },
   {
     "titre": "awesome — 😎 Awesome lists about all kinds of interesting topics",
-    "description": "Projet pour créer. 472 633 étoiles sur GitHub.",
+    "description": "Framework et outils web pour construire des applications rapides et évolutives. 472 633 étoiles sur GitHub.",
     "url": "https://github.com/sindresorhus/awesome",
     "categorie": "Web",
     "stars": 472633,
@@ -66,7 +66,7 @@
   },
   {
     "titre": "freeCodeCamp — freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "description": "Projet pour entraîner dans le domaine automatiser destiné à les entreprises. Développé en TypeScript. 445 977 étoiles sur GitHub.",
+    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en TypeScript. 445 977 étoiles sur GitHub.",
     "url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "categorie": "DevOps",
     "stars": 445977,
@@ -79,7 +79,7 @@
   },
   {
     "titre": "public-apis — A collective list of free APIs",
-    "description": "Projet pour open-source. Développé en Python. 439 115 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Python. 439 115 étoiles sur GitHub.",
     "url": "https://github.com/public-apis/public-apis",
     "categorie": "Outils",
     "stars": 439115,
@@ -92,7 +92,7 @@
   },
   {
     "titre": "free-programming-books — :books: Freely available programming books",
-    "description": "Projet pour open-source. Développé en Python. 389 605 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Python. 389 605 étoiles sur GitHub.",
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "categorie": "IA",
     "stars": 389605,
@@ -105,7 +105,7 @@
   },
   {
     "titre": "openclaw — Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-    "description": "Projet pour automatiser dans le domaine d'intelligence artificielle. Développé en TypeScript. 376 558 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en TypeScript. 376 558 étoiles sur GitHub.",
     "url": "https://github.com/openclaw/openclaw",
     "categorie": "IA",
     "stars": 376558,
@@ -118,7 +118,7 @@
   },
   {
     "titre": "developer-roadmap — Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-    "description": "Projet pour créer dans le domaine automatiser destiné à l'apprentissage. Développé en TypeScript. 356 164 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en TypeScript. 356 164 étoiles sur GitHub.",
     "url": "https://github.com/nilbuild/developer-roadmap",
     "categorie": "Outils",
     "stars": 356164,
@@ -131,7 +131,7 @@
   },
   {
     "titre": "awesome-python — An opinionated list of Python frameworks, libraries, tools, and resources",
-    "description": "Projet pour créer. Développé en Python. 301 080 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Python. 301 080 étoiles sur GitHub.",
     "url": "https://github.com/vinta/awesome-python",
     "categorie": "Outils",
     "stars": 301080,
@@ -144,7 +144,7 @@
   },
   {
     "titre": "awesome-selfhosted — A list of Free Software network services and web applications which can be hosted on your own servers",
-    "description": "Projet pour déployer dans le domaine web. 297 003 étoiles sur GitHub.",
+    "description": "Framework et outils web pour construire des applications rapides et évolutives. 297 003 étoiles sur GitHub.",
     "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "categorie": "Web",
     "stars": 297003,
@@ -157,7 +157,7 @@
   },
   {
     "titre": "react — The library for web and native user interfaces.",
-    "description": "Projet pour automatiser dans le domaine web. Développé en JavaScript. 245 420 étoiles sur GitHub.",
+    "description": "Framework et outils web pour construire des applications rapides et évolutives. Développé en JavaScript. 245 420 étoiles sur GitHub.",
     "url": "https://github.com/facebook/react",
     "categorie": "Web",
     "stars": 245420,
@@ -170,7 +170,7 @@
   },
   {
     "titre": "linux — Linux kernel source tree",
-    "description": "Projet pour d'interface utilisateur. Développé en C. 235 238 étoiles sur GitHub.",
+    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en C. 235 238 étoiles sur GitHub.",
     "url": "https://github.com/torvalds/linux",
     "categorie": "DevOps",
     "stars": 235238,
@@ -183,7 +183,7 @@
   },
   {
     "titre": "Python — All Algorithms implemented in Python",
-    "description": "Projet pour créer. Développé en Python. 221 622 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Python. 221 622 étoiles sur GitHub.",
     "url": "https://github.com/TheAlgorithms/Python",
     "categorie": "Outils",
     "stars": 221622,
@@ -196,7 +196,7 @@
   },
   {
     "titre": "superpowers — An agentic skills framework & software development methodology that works.",
-    "description": "Projet pour créer dans le domaine d'agents intelligents. Développé en Shell. 216 841 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en Shell. 216 841 étoiles sur GitHub.",
     "url": "https://github.com/obra/superpowers",
     "categorie": "Agents",
     "stars": 216841,
@@ -209,7 +209,7 @@
   },
   {
     "titre": "ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
-    "description": "Projet pour créer dans le domaine rechercher. Développé en JavaScript. 205 499 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en JavaScript. 205 499 étoiles sur GitHub.",
     "url": "https://github.com/affaan-m/ECC",
     "categorie": "Agents",
     "stars": 205499,
@@ -222,7 +222,7 @@
   },
   {
     "titre": "javascript-algorithms — 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
-    "description": "Projet pour automatiser dans le domaine de données. Développé en JavaScript. 196 031 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en JavaScript. 196 031 étoiles sur GitHub.",
     "url": "https://github.com/trekhleb/javascript-algorithms",
     "categorie": "Outils",
     "stars": 196031,
@@ -235,7 +235,7 @@
   },
   {
     "titre": "tensorflow — An Open Source Machine Learning Framework for Everyone",
-    "description": "Projet pour entraîner dans le domaine d'apprentissage automatique. Développé en C++. 195 386 étoiles sur GitHub.",
+    "description": "Outil de machine learning performant pour l'entraînement et l'inférence de modèles. Développé en C++. 195 386 étoiles sur GitHub.",
     "url": "https://github.com/tensorflow/tensorflow",
     "categorie": "ML",
     "stars": 195386,
@@ -248,7 +248,7 @@
   },
   {
     "titre": "claw-code — The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https:",
-    "description": "Outil rapide pour d'interface utilisateur. Développé en Rust. 193 210 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Rust. 193 210 étoiles sur GitHub.",
     "url": "https://github.com/ultraworkers/claw-code",
     "categorie": "Outils",
     "stars": 193210,
@@ -261,7 +261,7 @@
   },
   {
     "titre": "n8n — Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
-    "description": "Projet pour créer dans le domaine déployer destiné à les équipes. Développé en TypeScript. 190 956 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en TypeScript. 190 956 étoiles sur GitHub.",
     "url": "https://github.com/n8n-io/n8n",
     "categorie": "IA",
     "stars": 190956,
@@ -274,7 +274,7 @@
   },
   {
     "titre": "ohmyzsh — 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300",
-    "description": "Outil simple d'utilisation et extensible pour gérer dans le domaine DevOps. Développé en Shell. 187 608 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Shell. 187 608 étoiles sur GitHub.",
     "url": "https://github.com/ohmyzsh/ohmyzsh",
     "categorie": "IA",
     "stars": 187608,
@@ -287,7 +287,7 @@
   },
   {
     "titre": "vscode — Visual Studio Code",
-    "description": "Projet pour automatiser. Développé en TypeScript. 185 751 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en TypeScript. 185 751 étoiles sur GitHub.",
     "url": "https://github.com/microsoft/vscode",
     "categorie": "Outils",
     "stars": 185751,
@@ -300,7 +300,7 @@
   },
   {
     "titre": "AutoGPT — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha",
-    "description": "Projet pour créer dans le domaine d'intelligence artificielle. Développé en Python. 184 730 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en Python. 184 730 étoiles sur GitHub.",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
     "categorie": "Agents",
     "stars": 184730,
@@ -313,7 +313,7 @@
   },
   {
     "titre": "odysseus — Self-hosted AI workspace. ",
-    "description": "Projet pour déployer dans le domaine automatiser. Développé en JavaScript. 42 249 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en JavaScript. 42 249 étoiles sur GitHub.",
     "url": "https://github.com/pewdiepie-archdaemon/odysseus",
     "categorie": "IA",
     "stars": 42249,
@@ -326,7 +326,7 @@
   },
   {
     "titre": "vLLM — Inference LLM haute performance",
-    "description": "Outil rapide et léger pour d'intelligence artificielle dans le domaine open-source. Développé en Python. 32 000 étoiles sur GitHub.",
+    "description": "Outil de machine learning performant pour l'entraînement et l'inférence de modèles. Développé en Python. 32 000 étoiles sur GitHub.",
     "url": "https://github.com/vllm-project/vllm",
     "categorie": "ML",
     "stars": 32000,
@@ -339,7 +339,7 @@
   },
   {
     "titre": "Claude Code — Agent de codage en terminal",
-    "description": "Projet pour automatiser dans le domaine d'intelligence artificielle. Développé en TypeScript. 22 000 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en TypeScript. 22 000 étoiles sur GitHub.",
     "url": "https://github.com/anthropics/claude-code",
     "categorie": "IA",
     "stars": 22000,
@@ -352,7 +352,7 @@
   },
   {
     "titre": "OpenAI Swarm — Framework multi-agents",
-    "description": "Outil rapide pour automatiser dans le domaine d'intelligence artificielle destiné à les équipes. Développé en Python. 18 500 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en Python. 18 500 étoiles sur GitHub.",
     "url": "https://github.com/openai/swarm",
     "categorie": "Agents",
     "stars": 18500,
@@ -365,7 +365,7 @@
   },
   {
     "titre": "Hermes Agent — Votre assistant open-source superpuissant",
-    "description": "Outil extensible pour rechercher dans le domaine automatiser. Développé en TypeScript. 12 700 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en TypeScript. 12 700 étoiles sur GitHub.",
     "url": "https://github.com/NousResearch/hermes-agent",
     "categorie": "Agents",
     "stars": 12700,
@@ -378,7 +378,7 @@
   },
   {
     "titre": "OpenCode — Client ACP open-source",
-    "description": "Projet pour d'intelligence artificielle dans le domaine d'agents intelligents. Développé en Go. 8 900 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Go. 8 900 étoiles sur GitHub.",
     "url": "https://github.com/sst/opencode",
     "categorie": "Outils",
     "stars": 8900,
@@ -391,7 +391,7 @@
   },
   {
     "titre": "zero-native — Build desktop + mobile apps with Zig and web UI",
-    "description": "Projet pour créer dans le domaine web. Développé en Zig. 4 093 étoiles sur GitHub.",
+    "description": "Bibliothèque et outils de design pour créer des interfaces utilisateur modernes. Développé en Zig. 4 093 étoiles sur GitHub.",
     "url": "https://github.com/vercel-labs/zero-native",
     "categorie": "Design/UI",
     "stars": 4093,
@@ -404,7 +404,7 @@
   },
   {
     "titre": "beautiful-html-templates — A library of HTML slide templates designed so any coding agent can pick the right one and produce a ",
-    "description": "Projet pour automatiser dans le domaine d'agents intelligents. Développé en HTML. 2 471 étoiles sur GitHub.",
+    "description": "Bibliothèque et outils de design pour créer des interfaces utilisateur modernes. Développé en HTML. 2 471 étoiles sur GitHub.",
     "url": "https://github.com/zarazhangrui/beautiful-html-templates",
     "categorie": "Design/UI",
     "stars": 2471,
@@ -417,7 +417,7 @@
   },
   {
     "titre": "agents-best-practices — Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
-    "description": "Projet pour d'intelligence artificielle dans le domaine d'agents intelligents. 1 747 étoiles sur GitHub.",
+    "description": "Bibliothèque et outils de design pour créer des interfaces utilisateur modernes. 1 747 étoiles sur GitHub.",
     "url": "https://github.com/DenisSergeevitch/agents-best-practices",
     "categorie": "Design/UI",
     "stars": 1747,
@@ -430,7 +430,7 @@
   },
   {
     "titre": "Pixal3D — [SIGGRAPH 2026] Pixal3D: Pixel-Aligned 3D Generation from Images",
-    "description": "Projet pour visualiser dans le domaine d'analyse d'images. Développé en Python. 1 660 étoiles sur GitHub.",
+    "description": "Technologie de vision par ordinateur pour l'analyse et le traitement d'images. Développé en Python. 1 660 étoiles sur GitHub.",
     "url": "https://github.com/TencentARC/Pixal3D",
     "categorie": "Image/Vision",
     "stars": 1660,
@@ -443,7 +443,7 @@
   },
   {
     "titre": "goose — Goose Swift proof-of-concept README",
-    "description": "Projet pour créer. Développé en Rust. 1 410 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Rust. 1 410 étoiles sur GitHub.",
     "url": "https://github.com/b-nnett/goose",
     "categorie": "Outils",
     "stars": 1410,
@@ -456,7 +456,7 @@
   },
   {
     "titre": "gemini-web2api — Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file.",
-    "description": "Outil multi-plateforme pour traiter dans le domaine sécuriser. Développé en Python. 1 344 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Python. 1 344 étoiles sur GitHub.",
     "url": "https://github.com/Sophomoresty/gemini-web2api",
     "categorie": "IA",
     "stars": 1344,
@@ -469,7 +469,7 @@
   },
   {
     "titre": "butterbase — Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
-    "description": "Projet pour sécuriser dans le domaine automatiser. Développé en TypeScript. 1 248 étoiles sur GitHub.",
+    "description": "Solution de sécurité pour protéger vos données et applications. Développé en TypeScript. 1 248 étoiles sur GitHub.",
     "url": "https://github.com/butterbase-ai/butterbase",
     "categorie": "Sécurité",
     "stars": 1248,
@@ -482,7 +482,7 @@
   },
   {
     "titre": "science-skills — GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token e",
-    "description": "Outil rapide pour optimiser dans le domaine d'agents intelligents destiné à les équipes. Développé en Python. 1 244 étoiles sur GitHub.",
+    "description": "Outil de gestion et d'analyse de données pour en extraire de la valeur. Développé en Python. 1 244 étoiles sur GitHub.",
     "url": "https://github.com/google-deepmind/science-skills",
     "categorie": "Data",
     "stars": 1244,
@@ -495,7 +495,7 @@
   },
   {
     "titre": "invisible_playwright — Anti-Detect Browser that passes every bot detection test. Drop-in Playwright replacement.",
-    "description": "Projet pour d'analyse d'images. Développé en Python. 1 134 étoiles sur GitHub.",
+    "description": "Technologie de vision par ordinateur pour l'analyse et le traitement d'images. Développé en Python. 1 134 étoiles sur GitHub.",
     "url": "https://github.com/feder-cr/invisible_playwright",
     "categorie": "Image/Vision",
     "stars": 1134,
@@ -508,7 +508,7 @@
   },
   {
     "titre": "Lance — A 3B-active-parameter native unified multimodal model for image and video understanding, generation,",
-    "description": "Projet pour d'analyse d'images dans le domaine vidéo. Développé en Python. 1 120 étoiles sur GitHub.",
+    "description": "Technologie de vision par ordinateur pour l'analyse et le traitement d'images. Développé en Python. 1 120 étoiles sur GitHub.",
     "url": "https://github.com/bytedance/Lance",
     "categorie": "Image/Vision",
     "stars": 1120,
@@ -521,7 +521,7 @@
   },
   {
     "titre": "SenPaiScanner — A light-weight scanner for Cloudflare IPs, written in Golang",
-    "description": "Projet pour créer. Développé en Go. 993 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Go. 993 étoiles sur GitHub.",
     "url": "https://github.com/MatinSenPai/SenPaiScanner",
     "categorie": "IA",
     "stars": 993,
@@ -534,7 +534,7 @@
   },
   {
     "titre": "image-extender — Seamlessly extend any image in any direction with AI. Open-source web app powered by Gemini via Open",
-    "description": "Projet pour automatiser dans le domaine web. Développé en TypeScript. 889 étoiles sur GitHub.",
+    "description": "Technologie de vision par ordinateur pour l'analyse et le traitement d'images. Développé en TypeScript. 889 étoiles sur GitHub.",
     "url": "https://github.com/boona13/image-extender",
     "categorie": "Image/Vision",
     "stars": 889,
@@ -547,7 +547,7 @@
   },
   {
     "titre": "ktx — ktx is an executable context layer for data and analytics agents 🐙 Allow Claude Code, Codex, and any",
-    "description": "Projet pour rechercher dans le domaine automatiser. Développé en TypeScript. 843 étoiles sur GitHub.",
+    "description": "Outil de gestion et d'analyse de données pour en extraire de la valeur. Développé en TypeScript. 843 étoiles sur GitHub.",
     "url": "https://github.com/Kaelio/ktx",
     "categorie": "Data",
     "stars": 843,
@@ -560,7 +560,7 @@
   },
   {
     "titre": "WhiteDNS — Source-available Android DNS tunneling client with VPN and proxy modes, backed by MasterDNS & StormD",
-    "description": "Projet pour mobile dans le domaine en ligne de commande. Développé en Kotlin. 835 étoiles sur GitHub.",
+    "description": "Framework mobile pour créer des applications natives et cross-platform. Développé en Kotlin. 835 étoiles sur GitHub.",
     "url": "https://github.com/iampedii/WhiteDNS",
     "categorie": "Mobile",
     "stars": 835,
@@ -573,7 +573,7 @@
   },
   {
     "titre": "pi-dynamic-workflows (Michaelliv)",
-    "description": "Projet pour automatiser. Développé en TypeScript. 765 étoiles sur GitHub.",
+    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en TypeScript. 765 étoiles sur GitHub.",
     "url": "https://github.com/Michaelliv/pi-dynamic-workflows",
     "categorie": "DevOps",
     "stars": 765,
@@ -586,7 +586,7 @@
   },
   {
     "titre": "memory-os — A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, aut",
-    "description": "Projet pour d'intelligence artificielle dans le domaine d'agents intelligents. Développé en Python. 737 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en Python. 737 étoiles sur GitHub.",
     "url": "https://github.com/ClaudioDrews/memory-os",
     "categorie": "Agents",
     "stars": 737,
@@ -599,7 +599,7 @@
   },
   {
     "titre": "skills — Skills for Kotlin, Jetpack Compose, and Android development",
-    "description": "Projet pour créer dans le domaine mobile. 734 étoiles sur GitHub.",
+    "description": "Framework mobile pour créer des applications natives et cross-platform. 734 étoiles sur GitHub.",
     "url": "https://github.com/chrisbanes/skills",
     "categorie": "Mobile",
     "stars": 734,
@@ -612,7 +612,7 @@
   },
   {
     "titre": "Duel-Agents — CLI, SDK, and IDE plugins for Duel Agents",
-    "description": "Outil extensible pour automatiser dans le domaine d'agents intelligents. Développé en TypeScript. 699 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en TypeScript. 699 étoiles sur GitHub.",
     "url": "https://github.com/2aronS/Duel-Agents",
     "categorie": "Agents",
     "stars": 699,
@@ -625,7 +625,7 @@
   },
   {
     "titre": "skylight — Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon",
-    "description": "Projet pour automatiser. Développé en TypeScript. 648 étoiles sur GitHub.",
+    "description": "Framework et outils web pour construire des applications rapides et évolutives. Développé en TypeScript. 648 étoiles sur GitHub.",
     "url": "https://github.com/cpaczek/skylight",
     "categorie": "Web",
     "stars": 648,
@@ -638,7 +638,7 @@
   },
   {
     "titre": "OpenHack — Lightweight, file-based workspace for source-guided whitebox security review.",
-    "description": "Outil léger pour d'interface utilisateur dans le domaine de sécurité. Développé en Python. 633 étoiles sur GitHub.",
+    "description": "Solution de sécurité pour protéger vos données et applications. Développé en Python. 633 étoiles sur GitHub.",
     "url": "https://github.com/hadriansecurity/OpenHack",
     "categorie": "Sécurité",
     "stars": 633,
@@ -651,7 +651,7 @@
   },
   {
     "titre": "Agent-HTML — You don't need a chat ui but a canvas with ai.",
-    "description": "Projet pour automatiser dans le domaine d'interface utilisateur. Développé en TypeScript. 549 étoiles sur GitHub.",
+    "description": "Bibliothèque et outils de design pour créer des interfaces utilisateur modernes. Développé en TypeScript. 549 étoiles sur GitHub.",
     "url": "https://github.com/Sayhi-bzb/Agent-HTML",
     "categorie": "Design/UI",
     "stars": 549,
@@ -664,7 +664,7 @@
   },
   {
     "titre": "tab-labeler — Rename browser tabs locally and bring order to chaotic sessions.",
-    "description": "Projet pour automatiser. Développé en TypeScript. 532 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en TypeScript. 532 étoiles sur GitHub.",
     "url": "https://github.com/SenhorH/tab-labeler",
     "categorie": "Outils",
     "stars": 532,
@@ -677,7 +677,7 @@
   },
   {
     "titre": "chokepoint-atlas (qiuqiubuchongle-cloud)",
-    "description": "Projet pour créer. Développé en Python. 511 étoiles sur GitHub.",
+    "description": "Projet open-source innovant pour développeurs. Développé en Python. 511 étoiles sur GitHub.",
     "url": "https://github.com/qiuqiubuchongle-cloud/chokepoint-atlas",
     "categorie": "Général",
     "stars": 511,
@@ -690,7 +690,7 @@
   },
   {
     "titre": "female-portrait-director — A modular Codex Skill for directing and expanding detailed AI female portrait prompts.",
-    "description": "Outil extensible pour d'intelligence artificielle. 503 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. 503 étoiles sur GitHub.",
     "url": "https://github.com/liyue-aigc/female-portrait-director",
     "categorie": "IA",
     "stars": 503,
@@ -703,7 +703,7 @@
   },
   {
     "titre": "terminal — Terminal UI to get stuff done in the browser",
-    "description": "Projet pour en ligne de commande dans le domaine d'interface utilisateur. Développé en Rust. 501 étoiles sur GitHub.",
+    "description": "Bibliothèque et outils de design pour créer des interfaces utilisateur modernes. Développé en Rust. 501 étoiles sur GitHub.",
     "url": "https://github.com/browser-use/terminal",
     "categorie": "Design/UI",
     "stars": 501,
@@ -716,7 +716,7 @@
   },
   {
     "titre": "rift (anomalyco)",
-    "description": "Projet pour créer. Développé en Rust. 488 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Rust. 488 étoiles sur GitHub.",
     "url": "https://github.com/anomalyco/rift",
     "categorie": "Outils",
     "stars": 488,
@@ -729,7 +729,7 @@
   },
   {
     "titre": "specification.website — Website specification — HTML, accessibility, security, SEO, agent-readiness. Platform-agnostic, sourced, MIT.",
-    "description": "Projet pour automatiser dans le domaine d'agents intelligents. Développé en TypeScript. 479 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en TypeScript. 479 étoiles sur GitHub.",
     "url": "https://github.com/jdevalk/specification.website",
     "categorie": "Agents",
     "stars": 479,
@@ -742,7 +742,7 @@
   },
   {
     "titre": "gta-5-mod-menu — 🚀 Dominate GTA V servers with this free, reliable FiveM mod menu featuring ESP, aimbot, and more, de",
-    "description": "Projet pour d'interface utilisateur dans le domaine open-source. 476 étoiles sur GitHub.",
+    "description": "Bibliothèque et outils de design pour créer des interfaces utilisateur modernes. 476 étoiles sur GitHub.",
     "url": "https://github.com/S4rdenz/gta-5-mod-menu",
     "categorie": "Design/UI",
     "stars": 476,
@@ -755,7 +755,7 @@
   },
   {
     "titre": "Qwen-VLA — The official repository of Qwen-VLA",
-    "description": "Projet pour créer. 467 étoiles sur GitHub.",
+    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. 467 étoiles sur GitHub.",
     "url": "https://github.com/QwenLM/Qwen-VLA",
     "categorie": "DevOps",
     "stars": 467,
@@ -768,7 +768,7 @@
   },
   {
     "titre": "gta-5-mod-menu — Ultimate Enhancement Toolkit for GTA V — powerful mod menu with ESP, vehicle spawner, recovery featu",
-    "description": "Outil puissant pour d'interface utilisateur. 446 étoiles sur GitHub.",
+    "description": "Bibliothèque et outils de design pour créer des interfaces utilisateur modernes. 446 étoiles sur GitHub.",
     "url": "https://github.com/SubamanojJ-2004/gta-5-mod-menu",
     "categorie": "Design/UI",
     "stars": 446,
@@ -781,7 +781,7 @@
   },
   {
     "titre": "kernel-design-agents (mit-han-lab)",
-    "description": "Projet pour créer. 432 étoiles sur GitHub.",
+    "description": "Bibliothèque et outils de design pour créer des interfaces utilisateur modernes. 432 étoiles sur GitHub.",
     "url": "https://github.com/mit-han-lab/kernel-design-agents",
     "categorie": "Design/UI",
     "stars": 432,
@@ -794,7 +794,7 @@
   },
   {
     "titre": "skills — AI agent skills created by me: Dan McAteer",
-    "description": "Projet pour créer dans le domaine d'intelligence artificielle. Développé en Python. 399 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en Python. 399 étoiles sur GitHub.",
     "url": "https://github.com/DannyMac180/skills",
     "categorie": "Agents",
     "stars": 399,
@@ -807,7 +807,7 @@
   },
   {
     "titre": "reg-factory (tiantianGPU)",
-    "description": "Projet pour créer. Développé en Python. 347 étoiles sur GitHub.",
+    "description": "Projet open-source innovant pour développeurs. Développé en Python. 347 étoiles sur GitHub.",
     "url": "https://github.com/tiantianGPU/reg-factory",
     "categorie": "Général",
     "stars": 347,
@@ -820,7 +820,7 @@
   },
   {
     "titre": "ESP32-Plane-Radar — Open-source ESP32 firmware for a 1.28″ round display that shows live ADS-B aircraft around your location as a sonar-styl",
-    "description": "Projet pour open-source. Développé en C++. 340 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en C++. 340 étoiles sur GitHub.",
     "url": "https://github.com/MatixYo/ESP32-Plane-Radar",
     "categorie": "IA",
     "stars": 340,
@@ -833,7 +833,7 @@
   },
   {
     "titre": "nbd-vram — Use your NVIDIA GPU's VRAM as swap space on Linux. Built for laptops with soldered memory and no upgrade path. If you ha",
-    "description": "Projet pour d'interface utilisateur. Développé en Shell. 337 étoiles sur GitHub.",
+    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en Shell. 337 étoiles sur GitHub.",
     "url": "https://github.com/c0deJedi/nbd-vram",
     "categorie": "DevOps",
     "stars": 337,
@@ -846,7 +846,7 @@
   },
   {
     "titre": "TripoSplat — TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
-    "description": "Projet pour créer dans le domaine traiter. Développé en Python. 317 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Python. 317 étoiles sur GitHub.",
     "url": "https://github.com/VAST-AI-Research/TripoSplat",
     "categorie": "IA",
     "stars": 317,
@@ -859,7 +859,7 @@
   },
   {
     "titre": "ShardBrowser — Free, open-source anti-detect browser launcher for web scraping and multi-accounting. By the ProxyShard team. Engine-lev",
-    "description": "Projet pour automatiser dans le domaine web. Développé en TypeScript. 295 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en TypeScript. 295 étoiles sur GitHub.",
     "url": "https://github.com/ProxyShard/ShardBrowser",
     "categorie": "Outils",
     "stars": 295,
@@ -872,7 +872,7 @@
   },
   {
     "titre": "Bernini — Bernini is a unified framework for video generation and editing that combines an MLLM-based semantic planner with a DiT-",
-    "description": "Projet pour d'intelligence artificielle dans le domaine vidéo. Développé en Python. 281 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Python. 281 étoiles sur GitHub.",
     "url": "https://github.com/bytedance/Bernini",
     "categorie": "IA",
     "stars": 281,
@@ -885,7 +885,7 @@
   },
   {
     "titre": "crypto-casino-bonus — Explore the best Crypto Casino Bonus - including no deposit welcome bonuses. Learn about Bitcoin casino rewards, free sp",
-    "description": "Projet pour entraîner dans le domaine mobile. 260 étoiles sur GitHub.",
+    "description": "Framework mobile pour créer des applications natives et cross-platform. 260 étoiles sur GitHub.",
     "url": "https://github.com/bonus-2026/crypto-casino-bonus",
     "categorie": "Mobile",
     "stars": 260,
@@ -898,7 +898,7 @@
   },
   {
     "titre": "open-warehouse-system — Chinese-first open-source WMS starter for cross-border warehouse, fulfillment, inventory, billing, returns, and 3PL oper",
-    "description": "Projet pour automatiser dans le domaine d'intelligence artificielle. Développé en TypeScript. 250 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en TypeScript. 250 étoiles sur GitHub.",
     "url": "https://github.com/BarneyD66/open-warehouse-system",
     "categorie": "IA",
     "stars": 250,
@@ -911,7 +911,7 @@
   },
   {
     "titre": "ideogram4 — Ideogram 4: Open image model at the forefront of design",
-    "description": "Projet pour d'interface utilisateur dans le domaine d'analyse d'images. Développé en Python. 248 étoiles sur GitHub.",
+    "description": "Outil de machine learning performant pour l'entraînement et l'inférence de modèles. Développé en Python. 248 étoiles sur GitHub.",
     "url": "https://github.com/ideogram-oss/ideogram4",
     "categorie": "ML",
     "stars": 248,
@@ -924,7 +924,7 @@
   },
   {
     "titre": "UltraCode-Shim — Give Claude Code's ultracode mode to ANY model you already pay for. A tiny local proxy + one config.json. Point your AI ",
-    "description": "Outil léger pour d'intelligence artificielle dans le domaine d'agents intelligents. Développé en Python. 245 étoiles sur GitHub.",
+    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en Python. 245 étoiles sur GitHub.",
     "url": "https://github.com/OnlyTerp/UltraCode-Shim",
     "categorie": "Agents",
     "stars": 245,
@@ -937,7 +937,7 @@
   },
   {
     "titre": "vimhjkl — learn vim from your terminal with spaced repetition",
-    "description": "Projet pour entraîner dans le domaine en ligne de commande. Développé en Python. 245 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Python. 245 étoiles sur GitHub.",
     "url": "https://github.com/S-Sigdel/vimhjkl",
     "categorie": "Outils",
     "stars": 245,
@@ -950,7 +950,7 @@
   },
   {
     "titre": "llama.cpp — Inférence LLM sur CPU/GPU",
-    "description": "Outil sécurisé pour d'intelligence artificielle dans le domaine de données. Développé en C++. 85 000 étoiles sur GitHub.",
+    "description": "Outil de machine learning performant pour l'entraînement et l'inférence de modèles. Développé en C++. 85 000 étoiles sur GitHub.",
     "url": "https://github.com/ggerganov/llama.cpp",
     "categorie": "ML",
     "stars": 85000,
@@ -963,7 +963,7 @@
   },
   {
     "titre": "DSPy — Programmation déclarative pour LLMs",
-    "description": "Projet pour automatiser dans le domaine d'intelligence artificielle. Développé en Python. 21 000 étoiles sur GitHub.",
+    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Python. 21 000 étoiles sur GitHub.",
     "url": "https://github.com/stanfordnlp/dspy",
     "categorie": "IA",
     "stars": 21000,
@@ -976,7 +976,7 @@
   },
   {
     "titre": "Bun — Runtime JavaScript tout-en-un",
-    "description": "Outil rapide pour gérer dans le domaine automatiser. Développé en Zig. 78 000 étoiles sur GitHub.",
+    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Zig. 78 000 étoiles sur GitHub.",
     "url": "https://github.com/oven-sh/bun",
     "categorie": "Outils",
     "stars": 78000,
@@ -989,7 +989,7 @@
   },
   {
     "titre": "Podman — Alternative à Docker sans daemon root",
-    "description": "Projet pour DevOps. Développé en Go. 28 000 étoiles sur GitHub.",
+    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en Go. 28 000 étoiles sur GitHub.",
     "url": "https://github.com/containers/podman",
     "categorie": "DevOps",
     "stars": 28000,
@@ -1002,7 +1002,7 @@
   },
   {
     "titre": "NixOS — Déploiement reproductible de bout en bout",
-    "description": "Projet pour DevOps. Développé en Nix. 20 000 étoiles sur GitHub.",
+    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en Nix. 20 000 étoiles sur GitHub.",
     "url": "https://github.com/NixOS/nixpkgs",
     "categorie": "DevOps",
     "stars": 20000,
