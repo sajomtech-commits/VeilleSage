@@ -1,5 +1,18 @@
 [
   {
+    "titre": "GIMP — Éditeur d'images libre et gratuit",
+    "description": "GIMP (GNU Image Manipulation Program) est l'alternative open-source à Adobe Photoshop. Retouche photo professionnelle, création graphique, design d'icônes et de maquettes. Entièrement gratuit, extensible par plugins, disponible sur Windows, macOS et Linux. Développé en C. 3 500 étoiles sur GitHub.",
+    "url": "https://gitlab.gnome.org/GNOME/gimp",
+    "categorie": "Open Source",
+    "stars": 3500,
+    "lang": "C",
+    "forks": 900,
+    "issues": 340,
+    "license": "GPL-3.0",
+    "date": "2026-06-03",
+    "date_added": "2026-06-03"
+  },
+  {
     "titre": "GIMP — Éditeur d'images libre",
     "description": "GIMP (GNU Image Manipulation Program) est l'alternative open-source à Photoshop. Retouche photo, création graphique, design d'icônes. Entièrement gratuit, extensible par plugins, disponible sur toutes les plateformes. Développé en C. 3 500 étoiles sur GitHub.",
     "url": "https://gitlab.gnome.org/GNOME/gimp",
