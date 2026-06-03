@@ -207,6 +207,19 @@ def fetch_trending():
             print(f"⚠️ Search query '{q}': {e}")
     
     articles = articles[:25]
+    
+    # Filtrer les articles chinois/non-français
+    import re
+    chinese = re.compile(r'[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff]')
+    filtered = []
+    for a in articles:
+        text = a['titre'] + ' ' + a.get('description','') + ' ' + a['url']
+        if chinese.search(text):
+            print(f"  ⛔ Filtré (chinois): {a['titre'][:40]}")
+            continue
+        filtered.append(a)
+    articles = filtered
+    
     print(f"📡 Fetched {len(articles)} trending repos")
     return articles
 
