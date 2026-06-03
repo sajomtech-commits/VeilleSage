@@ -157,6 +157,214 @@ def infer_category(name, desc):
         if kw in text: return "Open Source"
     return "Général"
 
+# Dictionnaire de traduction anglais → français pour les descriptions techniques
+FR_TRANSLATIONS = {
+    # Mots courants dans les descriptions GitHub
+    "build ": "construit ",
+    "tool ": "outil ",
+    "tools ": "outils ",
+    "framework ": "framework ",
+    "library ": "bibliothèque ",
+    "library for ": "bibliothèque pour ",
+    "a library ": "une bibliothèque ",
+    "a tool ": "un outil ",
+    "a framework ": "un framework ",
+    "a set of ": "un ensemble d'",
+    "a simple ": "un outil ",
+    "an open-source ": "un ",
+    "open-source ": "",
+    "open source ": "",
+    "lightweight ": "léger ",
+    "fast ": "rapide ",
+    "high-performance ": "haute performance ",
+    "easy to use ": "simple d'utilisation ",
+    "user-friendly ": "convivial ",
+    "modern ": "moderne ",
+    "cross-platform ": "multi-plateforme ",
+    "real-time ": "temps réel ",
+    "web-based ": "web ",
+    "based on ": "basé sur ",
+    "written in ": "écrit en ",
+    "powered by ": "propulsé par ",
+    "designed for ": "conçu pour ",
+    "built for ": "conçu pour ",
+    "built with ": "construit avec ",
+    "for building ": "pour construire ",
+    "for creating ": "pour créer ",
+    "for managing ": "pour gérer ",
+    "for developers ": "pour les développeurs ",
+    "make it easy ": "facilite ",
+    "lets you ": "permet de ",
+    "allows you ": "permet de ",
+    "allows developers ": "permet aux développeurs de ",
+    "helps you ": "aide à ",
+    "you can ": "on peut ",
+    "that makes ": "qui rend ",
+    "that lets ": "qui permet ",
+    "that helps ": "qui aide ",
+    "that runs ": "qui fonctionne ",
+    "that works ": "qui fonctionne ",
+    "using ": "avec ",
+    "database ": "base de données ",
+    "machine learning ": "apprentissage automatique ",
+    "deep learning ": "apprentissage profond ",
+    "artificial intelligence ": "intelligence artificielle ",
+    "neural network ": "réseau de neurones ",
+    "natural language ": "langage naturel ",
+    "user interface ": "interface utilisateur ",
+    "command line ": "ligne de commande ",
+    "development ": "développement ",
+    "deployment ": "déploiement ",
+    "container ": "conteneur ",
+    "cloud-native ": "cloud natif ",
+    "automation ": "automatisation ",
+    "monitoring ": "supervision ",
+    "visualization ": "visualisation ",
+    "management ": "gestion ",
+    "security ": "sécurité ",
+    "authentication ": "authentification ",
+    "encryption ": "chiffrement ",
+    "performance ": "performance ",
+    "scalable ": "passage à l'échelle ",
+    "reliable ": "fiable ",
+    "efficient ": "efficace ",
+    "powerful ": "puissant ",
+    "flexible ": "flexible ",
+    "extensible ": "extensible ",
+}
+
+# Mots à supprimer (trop vagues en anglais)
+FR_REMOVE = ["a ", "an ", "the ", "that ", "which ", "this ", "these ", "its ", "your "]
+
+def frenchify_desc(raw_desc, item):
+    """Construit une description en français à partir des données du repo."""
+    import re
+    name = item.get('name', '')
+    raw = raw_desc.strip()
+    lang = item.get('language')
+    stars = item.get('stargazers_count', 0)
+    lic = (item.get('license') or {}).get('spdx_id', '')
+    
+    stars_fmt = f"{stars:,}".replace(",", " ") if stars else ""
+    
+    # Extraire les informations utiles de la description anglaise
+    extraits = []
+    
+    # Verbes d'action
+    for pattern, action in [
+        (r'build|create|developp?|develop', 'créer'),
+        (r'manag|admin|control|monitor', 'gérer'),
+        (r'convert|transform|process|analyz', 'traiter'),
+        (r'deploy|ship|publish|host', 'déployer'),
+        (r'search|find|query|retrieve', 'rechercher'),
+        (r'train|fine.tune|learn', 'entraîner'),
+        (r'optimiz|boost|speed.up|accelerate', 'optimiser'),
+        (r'protect|secure|encrypt|auth', 'sécuriser'),
+        (r'visualiz|chart|graph|plot', 'visualiser'),
+        (r'automat|script|pipeline', 'automatiser'),
+    ]:
+        if re.search(pattern, raw, re.IGNORECASE):
+            extraits.append(action)
+    
+    # Domaines
+    for pattern, domaine in [
+        (r'ai |artificial.intelligence|llm|gpt|claude|llama', 'd\'intelligence artificielle'),
+        (r'agent|swarm|autonomous|multi-agent', "d'agents intelligents"),
+        (r'machine.learning|deep.learning|neural|pytorch|tensorflow', "d'apprentissage automatique"),
+        (r'database|sql|postgres|redis|mongodb', 'de base de données'),
+        (r'web|frontend|backend|react|vue|angular|next', 'web'),
+        (r'mobile|flutter|react.native|android|ios', 'mobile'),
+        (r'cli|terminal|command.line', 'en ligne de commande'),
+        (r'design|ui|ux|figma|tailwind|component', "d'interface utilisateur"),
+        (r'security|cyber|crypt|encrypt|auth', 'de sécurité'),
+        (r'devops|docker|kubernetes|deploy|infra', 'DevOps'),
+        (r'image|vision|ocr|detection|photo', "d'analyse d'images"),
+        (r'audio|speech|voice|music', 'audio'),
+        (r'video|stream|recording', 'vidéo'),
+        (r'data|analytics|big.data|dashboard', 'de données'),
+        (r'open.source|free|gpl|mit|apache', 'open-source'),
+    ]:
+        if re.search(pattern, raw, re.IGNORECASE):
+            extraits.append(domaine)
+    
+    # Usages spécifiques
+    usages = []
+    for pattern, usage in [
+        (r'for.developer|for.coder|for.programmer', 'les développeurs'),
+        (r'for.team|collaborat|workflow', 'les équipes'),
+        (r'for.business|enterprise|company|org', 'les entreprises'),
+        (r'for.student|for.learner|education|tutorial', 'l\'apprentissage'),
+        (r'for.research|scientif|academic', 'la recherche'),
+        (r'productivity|efficiency|boost', 'la productivité'),
+    ]:
+        if re.search(pattern, raw, re.IGNORECASE):
+            usages.append(usage)
+    
+    # Qualifiants
+    qualites = []
+    for pattern, qual in [
+        (r'fast|quick|rapid|blazing|speed', 'Rapide'),
+        (r'lightweight|minimal|small|tiny', 'Léger'),
+        (r'modern|new.generation|next.gen', 'Moderne'),
+        (r'easy|simple|user.friendly|intuitive', 'Simple d\'utilisation'),
+        (r'powerful|robust|enterprise.grade', 'Puissant'),
+        (r'extensible|modular|plugin|customiz', 'Extensible'),
+        (r'scalable|high.performance|efficient', 'Haute performance'),
+        (r'secure|private|privacy|encrypted', 'Sécurisé'),
+        (r'cross.platform|multi.platform', 'Multi-plateforme'),
+    ]:
+        if re.search(pattern, raw, re.IGNORECASE):
+            qualites.append(qual)
+    
+    # Construire la phrase en français
+    action = extraits[0] if extraits else "créer"
+    domaine = extraits[1] if len(extraits) > 1 else ""
+    
+    # Nettoyer les doublons
+    if domaine and domaine in action:
+        domaine = ""
+    
+    if qualites:
+        qual_str = qualites[0]
+        if len(qualites) > 1:
+            qual_str = f"{qualites[0]} et {qualites[1].lower()}"
+    else:
+        qual_str = ""
+    
+    sujet = f"Outil {qual_str.lower()} pour {action}" if qual_str else f"Projet pour {action}"
+    if domaine:
+        sujet = f"{sujet} dans le domaine {domaine}"
+    
+    if usages:
+        sujet = f"{sujet} destiné à {usages[0]}"
+    
+    sujet += "."
+    
+    # Ajouter le nom du repo + métriques
+    full = f"{sujet}"
+    if lang:
+        full += f" Développé en {lang}."
+    if stars_fmt:
+        full += f" {stars_fmt} étoiles sur GitHub."
+    
+    # Ajouter un extrait de la description originale traduite si elle est riche
+    if len(raw) > 30:
+        # Traduire les mots-clés techniques qu'on a ratés
+        trad = raw
+        for e, f in FR_TRANSLATIONS.items():
+            trad = re.sub(re.escape(e), f, trad, flags=re.IGNORECASE)
+        for w in FR_REMOVE:
+            trad = re.sub(r'\b' + re.escape(w) + r'\b', '', trad, flags=re.IGNORECASE)
+        trad = re.sub(r'\s+', ' ', trad).strip().rstrip('.')
+        
+        # Si la traduction est significativement différente de la phrase construite
+        if len(trad) > 40 and trad.lower() not in full.lower():
+            extra = f" Plus précisément : {trad}."
+            if len(full) + len(extra) < 400:
+                full += extra
+    
+    return full
+
 def fetch_trending():
     """Fetch trending repos from GitHub API."""
     since_date = (datetime.now(tz) - timedelta(days=7)).strftime("%Y-%m-%d")
@@ -184,15 +392,13 @@ def fetch_trending():
                     owner = item['owner']['login']
                     titre = f"{item['name']} — {desc}" if desc else f"{item['name']} ({owner})"
                     
-                    # Enrichir la description
-                    raw_desc = (item.get('description') or "Projet GitHub trending.").rstrip('.')
-                    lang_info = f" Développé en {item.get('language')}." if item.get('language') else ""
-                    stars_str = f" {item.get('stargazers_count', 0):,} étoiles sur GitHub.".replace(',', ' ')
-                    extra = f"{lang_info}{stars_str}"
+                    # Construction d'une description en français
+                    raw_desc = (item.get('description') or "Projet GitHub trending.")
+                    fr_desc = frenchify_desc(raw_desc, item)
                     
                     articles.append({
                         "titre": titre,
-                        "description": f"{raw_desc}.{extra}"[:400],
+                        "description": fr_desc[:400],
                         "url": item['html_url'],
                         "categorie": cat,
                         "stars": item.get('stargazers_count', 0),
@@ -206,7 +412,47 @@ def fetch_trending():
         except Exception as e:
             print(f"⚠️ Search query '{q}': {e}")
     
-    articles = articles[:25]
+    # Recherches ciblées pour les catégories souvent vides
+    target_queries = {
+        "Open Source": f"stars:>500 license:mit created:>{since_date}",
+        "Sécurité": f"stars:>500 security OR cybersecurity created:>{since_date}",
+        "Data": f"stars:>500 database OR analytics created:>{since_date}",
+        "Mobile": f"stars:>500 flutter OR react-native created:>{since_date}",
+        "Image/Vision": f"stars:>500 image OR computer-vision created:>{since_date}",
+        "Design/UI": f"stars:>300 design OR ui OR tailwind created:>{since_date}",
+        "Web": f"stars:>1000 react OR nextjs OR frontend created:>{since_date}",
+    }
+    
+    for tcat, tq in target_queries.items():
+        url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(tq)}&sort=stars&order=desc&per_page=10"
+        try:
+            data = fetch_json(url)
+            for item in data.get("items", []):
+                name = f"{item['owner']['login']}/{item['name']}"
+                if name not in all_items:
+                    all_items.add(name)
+                    desc = (item.get('description') or "")[:desc_max] if item.get('description') else ""
+                    owner = item['owner']['login']
+                    titre = f"{item['name']} — {desc}" if desc else f"{item['name']} ({owner})"
+                    raw_desc = (item.get('description') or "Projet GitHub trending.")
+                    fr_desc = frenchify_desc(raw_desc, item)
+                    articles.append({
+                        "titre": titre,
+                        "description": fr_desc[:400],
+                        "url": item['html_url'],
+                        "categorie": tcat,
+                        "stars": item.get('stargazers_count', 0),
+                        "lang": item.get('language') or "",
+                        "forks": item.get('forks_count', 0),
+                        "issues": item.get('open_issues_count', 0),
+                        "license": (item.get('license') or {}).get('spdx_id', ''),
+                        "date": today,
+                        "date_added": today
+                    })
+        except Exception as e:
+            print(f"⚠️ Target search '{tcat}': {e}")
+    
+    articles = articles[:50]
     
     # Filtrer les articles chinois/non-français
     import re
