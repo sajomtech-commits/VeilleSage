@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#0a0a12">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>VeilleSage — La veille GitHub qui monte</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a12;
+  --surface:#12121e;
+  --card:#1a1a2e;
+  --card-hover:#22223a;
+  --border:#2a2a44;
+  --accent:#00d4aa;
+  --accent-dim:#00a88a;
+  --gold:#f0b429;
+  --orange:#ff8a47;
+  --rose:#ff4d7a;
+  --violet:#a855f7;
+  --blue:#3b82f6;
+  --text:#e8e8f0;
+  --muted:#6b6b8a;
+  --radius:14px;
+  --radius-sm:10px;
+  --safe-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,sans-serif;
+  background:var(--bg);color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:calc(80px + var(--safe-bottom));
+  min-height:100vh;
+}
+
+/* HEADER STICKY */
+header{
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  padding:14px 16px 10px;
+  position:sticky;top:0;z-index:100;
+  backdrop-filter:blur(24px);
+  -webkit-backdrop-filter:blur(24px);
+}
+.header-row{display:flex;align-items:center;gap:10px}
+.header-row h1{
+  font-size:20px;font-weight:800;letter-spacing:-0.3px;
+  background:linear-gradient(135deg,var(--accent),var(--gold));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.header-row .spacer{flex:1}
+.header-row .subtitle{font-size:11px;color:var(--muted);font-weight:500;letter-spacing:0.3px;text-transform:uppercase}
+.header-row .badge{background:var(--rose);color:#fff;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;margin-left:4px;vertical-align:middle}
+.filter-bar{display:flex;gap:6px;margin-top:10px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
+.filter-bar::-webkit-scrollbar{display:none}
+.filter-btn{
+  padding:6px 14px;border-radius:20px;border:1px solid var(--border);
+  background:transparent;color:var(--muted);font-size:12px;font-weight:600;
+  cursor:pointer;transition:all .2s;flex-shrink:0;
+}
+.filter-btn.active{background:var(--accent);border-color:var(--accent);color:#000}
+.filter-btn:hover:not(.active){border-color:var(--accent);color:var(--text)}
+
+/* MAIN */
+main{max-width:640px;margin:0 auto;padding:16px}
+.section-label{
+  font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;
+  color:var(--muted);margin:20px 0 10px;padding:0 4px;
+}
+
+/* CARD */
+.card{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  margin-bottom:12px;overflow:hidden;transition:all .2s;
+}
+.card:hover{border-color:var(--accent-dim)}
+.card-header{
+  display:flex;align-items:flex-start;justify-content:space-between;
+  padding:14px 14px 12px;cursor:pointer;gap:10px;
+  -webkit-tap-highlight-color:transparent;
+}
+.card-header:active{background:var(--card-hover)}
+.card-left{flex:1;min-width:0}
+.card-category{
+  display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.4px;padding:2px 8px;border-radius:6px;margin-bottom:6px;
+}
+.cat-ia{background:rgba(59,130,246,.15);color:var(--blue)}
+.cat-agents{background:rgba(168,85,247,.15);color:var(--violet)}
+.cat-outils{background:rgba(0,212,170,.15);color:var(--accent)}
+.cat-devops{background:rgba(240,180,41,.15);color:var(--gold)}
+.cat-open-source{background:rgba(255,77,122,.15);color:var(--rose)}
+.cat-ml{background:rgba(255,138,71,.15);color:var(--orange)}
+.cat-defaut{background:rgba(107,107,138,.2);color:var(--muted)}
+.card-title{
+  font-size:15px;font-weight:700;line-height:1.35;margin-bottom:4px;
+}
+.card-title a{color:var(--text);text-decoration:none}
+.card-title a:hover{color:var(--accent)}
+.card-meta{font-size:11px;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.card-meta .stars{color:var(--gold)}
+.card-meta .lang{color:var(--accent)}
+.card-arrow{font-size:14px;color:var(--muted);transition:transform .3s;flex-shrink:0;margin-top:2px}
+.card.open .card-arrow{transform:rotate(180deg)}
+
+.card-body{
+  max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s;
+  padding:0 14px;background:var(--surface);border-top:0 solid var(--border);
+}
+.card.open .card-body{
+  max-height:400px;padding:12px 14px;border-top-width:1px;
+  border-top-style:solid;
+}
+.card-body p{font-size:13px;line-height:1.6;color:#c8c8d8;margin-bottom:6px}
+.card-body .card-stats{font-size:11px;color:var(--muted);display:flex;gap:14px;margin-top:6px;flex-wrap:wrap}
+.card-body .visit-link{
+  display:inline-flex;align-items:center;gap:4px;margin-top:8px;
+  padding:6px 14px;border-radius:8px;background:var(--accent);color:#000;
+  font-size:12px;font-weight:700;text-decoration:none;transition:opacity .2s;
+}
+.card-body .visit-link:hover{opacity:.85}
+.card-body .date-badge{font-size:10px;color:var(--muted)}
+
+/* DATE GROUP */
+.date-group{margin-bottom:4px}
+.date-heading{
+  font-size:12px;font-weight:700;color:var(--muted);
+  padding:8px 4px 4px;display:flex;align-items:center;gap:8px;
+}
+.date-heading::after{content:'';flex:1;height:1px;background:var(--border)}
+
+/* EMPTY STATE */
+.empty-state{text-align:center;padding:40px 20px;color:var(--muted)}
+.empty-state .icon{font-size:48px;margin-bottom:12px}
+.empty-state p{font-size:14px}
+
+/* FOOTER */
+footer{
+  position:fixed;bottom:0;left:0;right:0;
+  background:var(--surface);border-top:1px solid var(--border);
+  padding:10px 16px calc(10px + var(--safe-bottom));
+  text-align:center;font-size:10px;color:var(--muted);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+}
+footer .footer-label{font-weight:600;background:var(--accent);color:#000;padding:1px 8px;border-radius:4px;font-size:9px}
+
+/* LOADING */
+.loading{text-align:center;padding:40px;color:var(--muted)}
+.loading .spinner{width:24px;height:24px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 10px}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-row">
+    <div>
+      <h1>VeilleSage</h1>
+      <div class="subtitle">🚀 GitHub Le Labo  <span class="badge" id="article-count">0</span></div>
+    </div>
+    <div class="spacer"></div>
+  </div>
+  <div class="filter-bar" id="filter-bar">
+    <button class="filter-btn active" data-cat="all">🔥 Toutes</button>
+    <button class="filter-btn" data-cat="ia">🤖 IA</button>
+    <button class="filter-btn" data-cat="agents">🧠 Agents</button>
+    <button class="filter-btn" data-cat="outils">🔧 Outils</button>
+    <button class="filter-btn" data-cat="devops">⚙️ DevOps</button>
+    <button class="filter-btn" data-cat="open-source">📦 Open Source</button>
+    <button class="filter-btn" data-cat="ml">📊 ML</button>
+  </div>
+</header>
+
+<main id="main">
+  <div class="loading">
+    <div class="spinner"></div>
+    <p>Chargement de la veille...</p>
+  </div>
+</main>
+
+<footer>
+  <span class="footer-label">VeilleSage</span> · Mise à jour quotidienne à 7h · <span id="footer-date"></span>
+</footer>
+
+<script>
+const DATA_URL = './actu.json';
+
+let allArticles = [];
+
+async function loadData(){
+  try{
+    const res=await fetch(DATA_URL+'?t='+Date.now());
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    allArticles=await res.json();
+    renderArticles('all');
+  }catch(e){
+    document.getElementById('main').innerHTML=`
+      <div class="empty-state">
+        <div class="icon">📡</div>
+        <p>Aucune actu pour le moment.<br>Revenez demain à 7h !</p>
+      </div>`;
+    console.warn('VeilleSage:',e.message);
+  }
+}
+
+function renderArticles(filter){
+  const main=document.getElementById('main');
+  const count=document.getElementById('article-count');
+
+  let articles=filter==='all'?allArticles:allArticles.filter(a=>a.categorie===filter);
+
+  // Grouper par date
+  const groups={};
+  // Trier par date décroissante
+  const sorted=[...articles].sort((a,b)=>new Date(b.date)-new Date(a.date));
+  for(const a of sorted){
+    const d=a.date;
+    if(!groups[d]) groups[d]=[];
+    groups[d].push(a);
+  }
+
+  count.textContent=allArticles.length;
+
+  const dates=Object.keys(groups).sort().reverse();
+  if(dates.length===0){
+    main.innerHTML=`<div class="empty-state"><div class="icon">🔍</div><p>Aucun article dans cette catégorie.</p></div>`;
+    return;
+  }
+
+  let html='';
+  for(const date of dates){
+    const formatted=formatDate(date);
+    html+=`<div class="date-group"><div class="date-heading">${formatted}</div>`;
+    for(const a of groups[date]){
+      const catClass=getCatClass(a.categorie);
+      const stars=Number(a.stars)>0?`⭐ ${formatStars(a.stars)}`:'';
+
+      html+=`<div class="card" data-cat="${a.categorie}">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('open')">
+          <div class="card-left">
+            <div class="card-category ${catClass}">${a.categorie||'Général'}</div>
+            <div class="card-title">${a.titre}</div>
+            <div class="card-meta">
+              ${stars?'<span class="stars">'+stars+'</span>':''}
+              ${a.lang?'<span class="lang">🔷 '+a.lang+'</span>':''}
+              <span>📅 ${formatDateShort(a.date)}</span>
+            </div>
+          </div>
+          <div class="card-arrow">▾</div>
+        </div>
+        <div class="card-body">
+          <p>${a.description}</p>
+          <div class="card-stats">
+            ${a.forks>0?'🍴 '+a.forks+' forks':''}
+            ${a.issues>0?'🔧 '+a.issues+' issues':''}
+            ${a.license?'📜 '+a.license:''}
+          </div>
+          <a class="visit-link" href="${a.url}" target="_blank" rel="noopener">🔗 Voir sur GitHub</a>
+          <span class="date-badge">Ajouté le ${formatDateShort(a.date_added||a.date)}</span>
+        </div>
+      </div>`;
+    }
+    html+='</div>';
+  }
+  main.innerHTML=html;
+}
+
+function formatDate(d){const o=new Date(d+'T00:00:00');const now=new Date();const diff=(now-o)/(86400000);if(diff<1&&o.getDate()===now.getDate())return "📌 Aujourd'hui";if(diff<2&&diff>=1)return '📌 Hier';return o.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}
+function formatDateShort(d){const o=new Date(d+'T00:00:00');return o.toLocaleDateString('fr-FR',{day:'numeric',month:'short'})}
+function formatStars(n){if(n>=1000)return (n/1000).toFixed(n>=10000?0:1)+'k';return String(n)}
+function getCatClass(c){const m={'ia':'cat-ia','agents':'cat-agents','outils':'cat-outils','devops':'cat-devops','open-source':'cat-open-source','open source':'cat-open-source','ml':'cat-ml'};return m[c&&c.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')]||'cat-defaut'}
+
+// Filtres
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');
+    renderArticles(this.dataset.cat);
+  });
+});
+
+// Date footer
+document.getElementById('footer-date').textContent=new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'});
+
+loadData();
+</script>
+</body>
+</html>
