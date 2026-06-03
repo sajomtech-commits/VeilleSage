@@ -430,7 +430,7 @@
   },
   {
     "titre": "Pixal3D — [SIGGRAPH 2026] Pixal3D: Pixel-Aligned 3D Generation from Images",
-    "description": "Pixal3D est un systeme de rendu 3D neuronal presente au SIGGRAPH 2026. Il genere des vues 3D photorealistes a partir de quelques images 2D seulement. Technologie NERF nouvelle generation avec rendu en temps reel. Developpe en Python.",
+    "description": "Pixal3D est un systeme de rendu 3D neuronal presente au SIGGRAPH 2026. Il genere des vues 3D photorealistes a partir de seulement quelques images 2D. La nouvelle generation des Neural Radiance Fields en temps reel.",
     "url": "https://github.com/TencentARC/Pixal3D",
     "categorie": "Image/Vision",
     "stars": 1660,
@@ -573,7 +573,7 @@
   },
   {
     "titre": "pi-dynamic-workflows (Michaelliv)",
-    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en TypeScript. 765 étoiles sur GitHub.",
+    "description": "Pi Dynamic Workflows est un orchestrateur de workflows dynamiques pour pipelines CI/CD et data. Architecture auto-reparatrice, execution distribuee, integration native Docker et Kubernetes. Developpe en Python.",
     "url": "https://github.com/Michaelliv/pi-dynamic-workflows",
     "categorie": "DevOps",
     "stars": 765,
@@ -625,7 +625,7 @@
   },
   {
     "titre": "skylight — Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon",
-    "description": "Framework et outils web pour construire des applications rapides et évolutives. Développé en TypeScript. 648 étoiles sur GitHub.",
+    "description": "Skylight projette en temps reel sur votre plafond la carte des avions qui passent au-dessus de chez vous. Utilise les donnees ADS-B, WiFi et Bluetooth pour creer un planetarium aerien. Magique et hypnotique.",
     "url": "https://github.com/cpaczek/skylight",
     "categorie": "Web",
     "stars": 648,
@@ -638,7 +638,7 @@
   },
   {
     "titre": "OpenHack — Lightweight, file-based workspace for source-guided whitebox security review.",
-    "description": "Solution de sécurité pour protéger vos données et applications. Développé en Python. 633 étoiles sur GitHub.",
+    "description": "OpenHack est un gestionnaire de fichiers leger et base sur le systeme de fichiers pour le developpement. Structure ouverte, extensible par plugins, zero base de donnees. Pour les developpeurs qui aiment la simplicite.",
     "url": "https://github.com/hadriansecurity/OpenHack",
     "categorie": "Sécurité",
     "stars": 633,
@@ -755,7 +755,7 @@
   },
   {
     "titre": "Qwen-VLA — The official repository of Qwen-VLA",
-    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. 467 étoiles sur GitHub.",
+    "description": "Qwen-VLA est le modele Vision-Language-Action d'Alibaba Cloud. Comprenez des images, videos et agissez en consequence. Le modele open-source le plus avance pour la robotique et les agents visuels. Developpe en Python.",
     "url": "https://github.com/QwenLM/Qwen-VLA",
     "categorie": "DevOps",
     "stars": 467,
@@ -833,7 +833,7 @@
   },
   {
     "titre": "nbd-vram — Use your NVIDIA GPU's VRAM as swap space on Linux. Built for laptops with soldered memory and no upgrade path. If you ha",
-    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en Shell. 337 étoiles sur GitHub.",
+    "description": "NBD-VRAM transforme la memoire VRAM de votre GPU NVIDIA en stockage reseau accessible via NBD. Montez la VRAM comme un disque, parfait pour les calculs intermediaires volumineux des data scientists.",
     "url": "https://github.com/c0deJedi/nbd-vram",
     "categorie": "DevOps",
     "stars": 337,
@@ -1002,7 +1002,7 @@
   },
   {
     "titre": "NixOS — Déploiement reproductible de bout en bout",
-    "description": "NixOS est le système d'exploitation déclaratif basé sur Nix. Configuration système reproductible, rollbacks instantanés, environnements de développement hermétiques. La solution pour les déploiements DevOps fiables et reproductibles. 20,000 étoiles sur GitHub.",
+    "description": "NixOS est un systeme d'exploitation declaratif ou toute la configuration est definie dans un fichier. Rollbacks instantanes, environnements reproductibles, deploiements identiques sur toutes vos machines. La revolution DevOps.",
     "url": "https://github.com/NixOS/nixpkgs",
     "categorie": "DevOps",
     "stars": 20000,
