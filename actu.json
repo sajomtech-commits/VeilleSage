@@ -1,7 +1,7 @@
 [
   {
     "titre": "GIMP — Éditeur d'images libre et gratuit",
-    "description": "Projet open-source de référence, adopté par une large communauté. Développé en C. 3 500 étoiles sur GitHub.",
+    "description": "GIMP est le célèbre éditeur d'images libre et gratuit, alternative open-source à Adobe Photoshop. Retouche photo professionnelle, création graphique, design d'icônes. Extensible par plugins, disponible sur Windows, macOS et Linux. 3,500 étoiles sur GitHub.",
     "url": "https://gitlab.gnome.org/GNOME/gimp",
     "categorie": "Open Source",
     "stars": 3500,
@@ -14,7 +14,7 @@
   },
   {
     "titre": "FFmpeg — Suite multimédia universelle",
-    "description": "Projet open-source de référence, adopté par une large communauté. Développé en C. 48 000 étoiles sur GitHub.",
+    "description": "FFmpeg est la suite multimédia open-source la plus complète et utilisée au monde. Convertir, streamer, enregistrer, filtrer n'importe quel format audio/vidéo. Utilisé par YouTube, VLC, OBS et des milliers d'autres projets. 48,000 étoiles sur GitHub.",
     "url": "https://github.com/FFmpeg/FFmpeg",
     "categorie": "Open Source",
     "stars": 48000,
@@ -27,7 +27,7 @@
   },
   {
     "titre": "Homebrew — Gestionnaire de paquets macOS",
-    "description": "Projet open-source de référence, adopté par une large communauté. Développé en Ruby. 42 000 étoiles sur GitHub.",
+    "description": "Homebrew est le gestionnaire de paquets incontournable pour macOS (et Linux). Installez des milliers d'outils et bibliothèques open-source en une seule commande. Simple, extensible, maintenu par la communauté depuis plus de 15 ans. 42,000 étoiles sur GitHub.",
     "url": "https://github.com/Homebrew/brew",
     "categorie": "Open Source",
     "stars": 42000,
@@ -40,7 +40,7 @@
   },
   {
     "titre": "Signal — Messagerie chiffrée open-source",
-    "description": "Projet open-source de référence, adopté par une large communauté. Développé en Java. 26 500 étoiles sur GitHub.",
+    "description": "Signal est l'application de messagerie chiffrée de référence, entièrement open-source. Code audité, chiffrement de bout en bout par défaut, zéro collecte de données personnelles. La référence absolue pour la vie privée numérique. 26,500 étoiles sur GitHub.",
     "url": "https://github.com/signalapp/Signal-Android",
     "categorie": "Open Source",
     "stars": 26500,
@@ -53,7 +53,7 @@
   },
   {
     "titre": "awesome — 😎 Awesome lists about all kinds of interesting topics",
-    "description": "Framework et outils web pour construire des applications rapides et évolutives. 472 633 étoiles sur GitHub.",
+    "description": "Awesome est la plus grande collection de listes thématiques sur GitHub. Tout savoir sur n'importe quel sujet tech : frameworks, outils, bibliothèques, cours. Plus de 470 000 étoiles, le projet le plus étoilé sur GitHub. 472,633 étoiles sur GitHub.",
     "url": "https://github.com/sindresorhus/awesome",
     "categorie": "Web",
     "stars": 472633,
@@ -66,7 +66,7 @@
   },
   {
     "titre": "freeCodeCamp — freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en TypeScript. 445 977 étoiles sur GitHub.",
+    "description": "freeCodeCamp est une plateforme d'apprentissage du code complètement gratuite et open-source. Des milliers de leçons interactives, des certifications reconnues, une immense communauté de développeurs. Apprenez à coder gratuitement. 445,977 étoiles sur GitHub.",
     "url": "https://github.com/freeCodeCamp/freeCodeCamp",
     "categorie": "DevOps",
     "stars": 445977,
@@ -79,7 +79,7 @@
   },
   {
     "titre": "public-apis — A collective list of free APIs",
-    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Python. 439 115 étoiles sur GitHub.",
+    "description": "Public APIs est la plus grande collection d'API publiques gratuites répertoriées sur GitHub. Des milliers d'interfaces classées par catégorie pour vos projets et intégrations. La référence des développeurs pour trouver une API. 439,115 étoiles sur GitHub.",
     "url": "https://github.com/public-apis/public-apis",
     "categorie": "Outils",
     "stars": 439115,
@@ -92,7 +92,7 @@
   },
   {
     "titre": "free-programming-books — :books: Freely available programming books",
-    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Python. 389 605 étoiles sur GitHub.",
+    "description": "Free Programming Books est une immense collection de ressources gratuites pour apprendre la programmation. Des centaines de livres, cours, tutoriels dans toutes les langues et technologies. La plus grande bibliothèque de programmation gratuite. 389,605 étoiles sur GitHub.",
     "url": "https://github.com/EbookFoundation/free-programming-books",
     "categorie": "IA",
     "stars": 389605,
@@ -157,7 +157,7 @@
   },
   {
     "titre": "react — The library for web and native user interfaces.",
-    "description": "Framework et outils web pour construire des applications rapides et évolutives. Développé en JavaScript. 245 420 étoiles sur GitHub.",
+    "description": "React est la bibliothèque JavaScript la plus populaire pour construire des interfaces utilisateur. Développée par Meta, elle permet de créer des applications web complexes de façon déclarative et composable. Incontournable dans le web. 245,420 étoiles sur GitHub.",
     "url": "https://github.com/facebook/react",
     "categorie": "Web",
     "stars": 245420,
@@ -261,7 +261,7 @@
   },
   {
     "titre": "n8n — Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
-    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en TypeScript. 190 956 étoiles sur GitHub.",
+    "description": "n8n est un outil d'automatisation de workflows open-source et auto-hébergé. Connectez vos applications et services sans code, avec une interface visuelle puissante. Alternative open-source à Zapier et Make. 190,956 étoiles sur GitHub.",
     "url": "https://github.com/n8n-io/n8n",
     "categorie": "IA",
     "stars": 190956,
@@ -326,7 +326,7 @@
   },
   {
     "titre": "vLLM — Inference LLM haute performance",
-    "description": "Outil de machine learning performant pour l'entraînement et l'inférence de modèles. Développé en Python. 32 000 étoiles sur GitHub.",
+    "description": "vLLM est le moteur d'inférence le plus rapide pour les LLMs open-source. PagedAttention pour une mémoire optimale, continuous batching, quantization GPTQ/AWQ. Indispensable pour servir des modèles en production. 32,000 étoiles sur GitHub.",
     "url": "https://github.com/vllm-project/vllm",
     "categorie": "ML",
     "stars": 32000,
@@ -339,7 +339,7 @@
   },
   {
     "titre": "Claude Code — Agent de codage en terminal",
-    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en TypeScript. 22 000 étoiles sur GitHub.",
+    "description": "Claude Code d'Anthropic est un agent de codage qui travaille directement dans votre terminal. Comprend votre codebase, propose des modifications, exécute des commandes. Concurrent direct de GitHub Copilot en mode agent. 22,000 étoiles sur GitHub.",
     "url": "https://github.com/anthropics/claude-code",
     "categorie": "IA",
     "stars": 22000,
@@ -352,7 +352,7 @@
   },
   {
     "titre": "OpenAI Swarm — Framework multi-agents",
-    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en Python. 18 500 étoiles sur GitHub.",
+    "description": "Swarm d'OpenAI est un framework expérimental pour orchestrer des réseaux d'agents IA. Déléguez des tâches complexes entre agents spécialisés avec passage de contexte automatique. Architecture légère sans dépendances lourdes. 18,500 étoiles sur GitHub.",
     "url": "https://github.com/openai/swarm",
     "categorie": "Agents",
     "stars": 18500,
@@ -365,7 +365,7 @@
   },
   {
     "titre": "Hermes Agent — Votre assistant open-source superpuissant",
-    "description": "Framework open-source pour créer et orchestrer des agents intelligents. Développé en TypeScript. 12 700 étoiles sur GitHub.",
+    "description": "Hermes Agent de Nous Research est un framework d'agents IA open-source avec interface web, CLI, cron jobs et plugins. Compatible OpenAI, Anthropic, Ollama. Gérez des tâches complexes de façon autonome. 12,700 étoiles sur GitHub.",
     "url": "https://github.com/NousResearch/hermes-agent",
     "categorie": "Agents",
     "stars": 12700,
@@ -378,7 +378,7 @@
   },
   {
     "titre": "OpenCode — Client ACP open-source",
-    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Go. 8 900 étoiles sur GitHub.",
+    "description": "OpenCode est un client ACP open-source pour utiliser n'importe quel LLM comme agent de codage dans le terminal. Compatible Ollama, OpenAI, Anthropic. Alternative libre à Claude Code et GitHub Copilot. 8,900 étoiles sur GitHub.",
     "url": "https://github.com/sst/opencode",
     "categorie": "Outils",
     "stars": 8900,
@@ -950,7 +950,7 @@
   },
   {
     "titre": "llama.cpp — Inférence LLM sur CPU/GPU",
-    "description": "Outil de machine learning performant pour l'entraînement et l'inférence de modèles. Développé en C++. 85 000 étoiles sur GitHub.",
+    "description": "llama.cpp est le portage C/C++ ultra-performant de LLaMA pour inférence locale. Supporte GGUF, GPU CUDA/Metal/Vulkan, quantization 2-8 bits. Tourne du Raspberry Pi au datacenter. 85,000 étoiles sur GitHub.",
     "url": "https://github.com/ggerganov/llama.cpp",
     "categorie": "ML",
     "stars": 85000,
@@ -963,7 +963,7 @@
   },
   {
     "titre": "DSPy — Programmation déclarative pour LLMs",
-    "description": "Projet d'intelligence artificielle innovant et open-source. Développé en Python. 21 000 étoiles sur GitHub.",
+    "description": "DSPy de Stanford révolutionne la programmation LLM avec une approche déclarative. Fini le prompt engineering manuel : le framework optimise vos modules automatiquement. Idéal pour RAG, agents et génération structurée. 21,000 étoiles sur GitHub.",
     "url": "https://github.com/stanfordnlp/dspy",
     "categorie": "IA",
     "stars": 21000,
@@ -976,7 +976,7 @@
   },
   {
     "titre": "Bun — Runtime JavaScript tout-en-un",
-    "description": "Outil de développement puissant pour améliorer la productivité des développeurs. Développé en Zig. 78 000 étoiles sur GitHub.",
+    "description": "Bun est le runtime JavaScript/TypeScript tout-en-un ultra-rapide. Bundler, transpiler, package manager et test runner intégrés. Jusqu'à 4x plus rapide que Node.js pour les installations et 3x pour l'exécution. 78,000 étoiles sur GitHub.",
     "url": "https://github.com/oven-sh/bun",
     "categorie": "Outils",
     "stars": 78000,
@@ -989,7 +989,7 @@
   },
   {
     "titre": "Podman — Alternative à Docker sans daemon root",
-    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en Go. 28 000 étoiles sur GitHub.",
+    "description": "Podman est le moteur de conteneurs daemonless et rootless, 100% compatible Docker. Lancez des conteneurs sans privilèges root ni daemon central. Plus sécurisé que Docker, idéal pour les environnements DevOps sensibles. 28,000 étoiles sur GitHub.",
     "url": "https://github.com/containers/podman",
     "categorie": "DevOps",
     "stars": 28000,
@@ -1002,7 +1002,7 @@
   },
   {
     "titre": "NixOS — Déploiement reproductible de bout en bout",
-    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en Nix. 20 000 étoiles sur GitHub.",
+    "description": "NixOS est le système d'exploitation déclaratif basé sur Nix. Configuration système reproductible, rollbacks instantanés, environnements de développement hermétiques. La solution pour les déploiements DevOps fiables et reproductibles. 20,000 étoiles sur GitHub.",
     "url": "https://github.com/NixOS/nixpkgs",
     "categorie": "DevOps",
     "stars": 20000,
