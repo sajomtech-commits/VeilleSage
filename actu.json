@@ -78,19 +78,6 @@
     "date_added": "2026-06-03"
   },
   {
-    "titre": "html-anything — ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfac",
-    "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider. Développé en HTML. 5 969 étoiles sur GitHub.",
-    "url": "https://github.com/nexu-io/html-anything",
-    "categorie": "Web",
-    "stars": 5969,
-    "lang": "HTML",
-    "forks": 577,
-    "issues": 42,
-    "license": "Apache-2.0",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
     "titre": "zero-native — Build desktop + mobile apps with Zig and web UI",
     "description": "Build desktop + mobile apps with Zig and web UI. Développé en Zig. 4 093 étoiles sur GitHub.",
     "url": "https://github.com/vercel-labs/zero-native",
@@ -113,19 +100,6 @@
     "forks": 226,
     "issues": 0,
     "license": "MIT",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
-    "titre": "WechatOnCloud — 云微WOC，云微信，自由连接",
-    "description": "云微WOC，云微信，自由连接. Développé en TypeScript. 1 902 étoiles sur GitHub.",
-    "url": "https://github.com/Gloridust/WechatOnCloud",
-    "categorie": "Général",
-    "stars": 1902,
-    "lang": "TypeScript",
-    "forks": 530,
-    "issues": 9,
-    "license": "",
     "date": "2026-06-03",
     "date_added": "2026-06-03"
   },
@@ -169,19 +143,6 @@
     "date_added": "2026-06-03"
   },
   {
-    "titre": "aBaiAutoplus — 多平台 AI 账号自动注册与管理 · 协议化付款一键开通 ChatGPT Plus",
-    "description": "多平台 AI 账号自动注册与管理 · 协议化付款一键开通 ChatGPT Plus. Développé en Python. 1 372 étoiles sur GitHub.",
-    "url": "https://github.com/asz798838958/aBaiAutoplus",
-    "categorie": "IA",
-    "stars": 1372,
-    "lang": "Python",
-    "forks": 646,
-    "issues": 4,
-    "license": "AGPL-3.0",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
     "titre": "gemini-web2api — Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file.",
     "description": "Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file. Développé en Python. 1 344 étoiles sur GitHub.",
     "url": "https://github.com/Sophomoresty/gemini-web2api",
@@ -221,32 +182,6 @@
     "date_added": "2026-06-03"
   },
   {
-    "titre": "awesome-architecture — 🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, ",
-    "description": "🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, agents, inference serving, vector DB) + a language-agnostic system-design tutorial. Every template links to real open-source prototypes. 中英文双语。. Développé en Vue. 1 148 étoiles sur GitHub.",
-    "url": "https://github.com/study8677/awesome-architecture",
-    "categorie": "Design/UI",
-    "stars": 1148,
-    "lang": "Vue",
-    "forks": 121,
-    "issues": 0,
-    "license": "MIT",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
-    "titre": "awesome-architecture — 🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, ",
-    "description": "🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, agents, inference serving, vector DB) + a language-agnostic system-design tutorial. Every template links to real open-source prototypes. 中英文双语。. Développé en Vue. 1 148 étoiles sur GitHub.",
-    "url": "https://github.com/study8677/awesome-architecture",
-    "categorie": "Web",
-    "stars": 1148,
-    "lang": "Vue",
-    "forks": 121,
-    "issues": 0,
-    "license": "MIT",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
     "titre": "invisible_playwright — Anti-Detect Browser that passes every bot detection test. Drop-in Playwright replacement.",
     "description": "Anti-Detect Browser that passes every bot detection test. Drop-in Playwright replacement. Développé en Python. 1 134 étoiles sur GitHub.",
     "url": "https://github.com/feder-cr/invisible_playwright",
@@ -282,19 +217,6 @@
     "forks": 64,
     "issues": 31,
     "license": "MIT",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
-    "titre": "Echo-Loop — Echo Loop 是一款科学、高效的 AI 英语听说训练 App，通过盲听、精听、跟读、复述和间隔复习，自动驱动学习者把每一段音频真正练懂、练熟、练到会说。",
-    "description": "Echo Loop 是一款科学、高效的 AI 英语听说训练 App，通过盲听、精听、跟读、复述和间隔复习，自动驱动学习者把每一段音频真正练懂、练熟、练到会说。. Développé en Dart. 900 étoiles sur GitHub.",
-    "url": "https://github.com/echo-loop/Echo-Loop",
-    "categorie": "Mobile",
-    "stars": 900,
-    "lang": "Dart",
-    "forks": 54,
-    "issues": 11,
-    "license": "AGPL-3.0",
     "date": "2026-06-03",
     "date_added": "2026-06-03"
   },
@@ -412,19 +334,6 @@
     "forks": 90,
     "issues": 1,
     "license": "MIT",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
-    "titre": "chinese-buy-us-stock-guide — 美股指南",
-    "description": "美股指南. 587 étoiles sur GitHub.",
-    "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
-    "categorie": "Général",
-    "stars": 587,
-    "lang": "",
-    "forks": 110,
-    "issues": 3,
-    "license": "",
     "date": "2026-06-03",
     "date_added": "2026-06-03"
   },
@@ -572,19 +481,6 @@
     "date_added": "2026-06-03"
   },
   {
-    "titre": "s-ui — s-ui的完整备份 - 仅汉化了脚本",
-    "description": "s-ui的完整备份 - 仅汉化了脚本. Développé en Vue. 412 étoiles sur GitHub.",
-    "url": "https://github.com/admin8800/s-ui",
-    "categorie": "Design/UI",
-    "stars": 412,
-    "lang": "Vue",
-    "forks": 424,
-    "issues": 3,
-    "license": "GPL-3.0",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
     "titre": "skills — AI agent skills created by me: Dan McAteer",
     "description": "AI agent skills created by me: Dan McAteer. Développé en Python. 399 étoiles sur GitHub.",
     "url": "https://github.com/DannyMac180/skills",
@@ -672,19 +568,6 @@
     "forks": 19,
     "issues": 4,
     "license": "Apache-2.0",
-    "date": "2026-06-03",
-    "date_added": "2026-06-03"
-  },
-  {
-    "titre": "ExamPass-Assistant — 把课堂讲义变成考试利器 一键将 PPT、Word、PDF 课件转化为结构清晰的知识清单和交互式测试题，让复习事半功倍。 适用人群：大学生、各个阶段老师、其他需要对付短期考试的朋友",
-    "description": "把课堂讲义变成考试利器 一键将 PPT、Word、PDF 课件转化为结构清晰的知识清单和交互式测试题，让复习事半功倍。 适用人群：大学生、各个阶段老师、其他需要对付短期考试的朋友. Développé en Python. 273 étoiles sur GitHub.",
-    "url": "https://github.com/WUBING2023/ExamPass-Assistant",
-    "categorie": "Général",
-    "stars": 273,
-    "lang": "Python",
-    "forks": 13,
-    "issues": 2,
-    "license": "NOASSERTION",
     "date": "2026-06-03",
     "date_added": "2026-06-03"
   },
