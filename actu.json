@@ -157,7 +157,7 @@
   },
   {
     "titre": "react — The library for web and native user interfaces.",
-    "description": "React est la bibliothèque JavaScript la plus populaire pour construire des interfaces utilisateur. Développée par Meta, elle permet de créer des applications web complexes de façon déclarative et composable. Incontournable dans le web. 245,420 étoiles sur GitHub.",
+    "description": "React est la bibliotheque JavaScript la plus populaire pour les interfaces utilisateur. Developpee par Meta (Facebook), elle permet de creer des applications web complexes de facon declarative et composable. La reference des frameworks frontend modernes. 245 420 etoiles sur GitHub.",
     "url": "https://github.com/facebook/react",
     "categorie": "Web",
     "stars": 245420,
@@ -261,7 +261,7 @@
   },
   {
     "titre": "n8n — Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host ",
-    "description": "n8n est un outil d'automatisation de workflows open-source et auto-hébergé. Connectez vos applications et services sans code, avec une interface visuelle puissante. Alternative open-source à Zapier et Make. 190,956 étoiles sur GitHub.",
+    "description": "n8n est l'outil d'automatisation de workflows open-source et auto-heberge. Connectez vos applications et services avec une interface visuelle puissante sans ecrire de code. Alternative ouverte a Zapier, Make et IFTTT. 190 956 etoiles sur GitHub.",
     "url": "https://github.com/n8n-io/n8n",
     "categorie": "IA",
     "stars": 190956,
