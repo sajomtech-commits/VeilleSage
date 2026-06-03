@@ -97,16 +97,39 @@ def infer_category(name, desc):
     """Infer article category from repo name and description."""
     text = (name + " " + (desc or "")).lower()
     
-    agent_keywords = ["agent", "swarm", "crew", "autogpt", "mcp", "tool-use", "agentic"]
+    agent_keywords = ["agent", "swarm", "crew", "autogpt", "mcp", "tool-use", "agentic", "multi-agent", "orchestrator", "copilot"]
     ia_keywords = ["llm", "ai", "gpt", "claude", "llama", "mistral", "deepseek", "transformer", 
-                   "diffusion", "generative", "chatbot", "prompt", "rag", "embedding"]
+                   "diffusion", "generative", "chatbot", "prompt", "rag", "embedding",
+                   "openai", "anthropic", "language-model", "foundation-model"]
     ml_keywords = ["pytorch", "tensorflow", "jax", "ml", "machine-learning", "nn", "neural",
-                   "train", "fine-tune", "dataset", "model"]
+                   "train", "fine-tune", "dataset", "model", "inference", "vllm", "triton",
+                   "onnx", "gguf", "mlx", "deep-learning", "computer-vision", "nlp"]
     devops_keywords = ["docker", "kubernetes", "k8s", "devops", "terraform", "deploy", 
-                       "infra", "monitoring", "observability", "ci"]
-    outils_keywords = ["cli", "terminal", "vim", "plugin", "build-tool", "package", 
-                       "bundler", "linter", "formatter", "sdk", "api", "framework"]
-    opensource_keywords = ["open-source", "linux", "gpl", "mit", "apache", "gnu", "free"]
+                       "infra", "monitoring", "observability", "ci", "cd", "gitops",
+                       "helm", "ansible", "caddy", "nginx", "traefik", "prometheus",
+                       "grafana", "linux", "container", "kubectl"]
+    outils_keywords = ["cli", "terminal", "vim", "neovim", "plugin", "build-tool", "package", 
+                       "bundler", "linter", "formatter", "sdk", "api", "framework",
+                       "vs-code", "vscode", "ide", "compiler", "npm", "cargo", "go",
+                       "rust", "typescript", "node", "deno", "bun", "debugger", "test"]
+    opensource_keywords = ["open-source", "gpl", "mit", "apache", "gnu", "free-software",
+                           "self-hosted", "selfhosted", "privacy", "foss"]
+    design_keywords = ["ui", "ux", "design", "figma", "tailwind", "css", "animation",
+                       "icon", "typography", "color", "theme", "dashboard", "component"]
+    web_keywords = ["react", "vue", "svelte", "angular", "nextjs", "nuxt", "webapp",
+                    "web-app", "frontend", "backend", "fullstack", "api", "rest",
+                    "graphql", "http", "server", "browser", "html", "javascript"]
+    mobile_keywords = ["android", "ios", "swift", "kotlin", "flutter", "react-native",
+                       "mobile", "app", "pwa", "progressive-web"]
+    securite_keywords = ["security", "cyber", "cryptography", "encrypt", "auth",
+                         "oauth", "jwt", "vulnerability", "malware", "pentest",
+                         "firewall", "zero-trust", "privacy"]
+    data_keywords = ["database", "sql", "postgres", "mysql", "sqlite", "redis",
+                     "mongodb", "big-data", "etl", "data-pipeline", "warehouse",
+                     "analytics", "dashboard", "visualization", "bi"]
+    image_keywords = ["image", "photo", "photo", "computer-vision", "vision",
+                      "detection", "recognition", "segmentation", "ocr",
+                      "stable-diffusion", "generative-image", "screenshot"]
     
     for kw in agent_keywords:
         if kw in text: return "Agents"
@@ -118,6 +141,18 @@ def infer_category(name, desc):
         if kw in text: return "DevOps"
     for kw in outils_keywords:
         if kw in text: return "Outils"
+    for kw in design_keywords:
+        if kw in text: return "Design/UI"
+    for kw in web_keywords:
+        if kw in text: return "Web"
+    for kw in mobile_keywords:
+        if kw in text: return "Mobile"
+    for kw in securite_keywords:
+        if kw in text: return "Sécurité"
+    for kw in data_keywords:
+        if kw in text: return "Data"
+    for kw in image_keywords:
+        if kw in text: return "Image/Vision"
     for kw in opensource_keywords:
         if kw in text: return "Open Source"
     return "Général"
