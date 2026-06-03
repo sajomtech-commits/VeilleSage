@@ -144,7 +144,7 @@
   },
   {
     "titre": "awesome-selfhosted — A list of Free Software network services and web applications which can be hosted on your own servers",
-    "description": "Framework et outils web pour construire des applications rapides et évolutives. 297 003 étoiles sur GitHub.",
+    "description": "Awesome-Selfhosted est la plus grande collection de logiciels auto-hebergeables. Alternatives aux services cloud (Google Drive, Dropbox, Netflix) que vous pouvez heberger vous-meme. Indispensable pour la privacy et l'autonomie numerique. 297 003 etoiles sur GitHub.",
     "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "categorie": "Web",
     "stars": 297003,
@@ -170,7 +170,7 @@
   },
   {
     "titre": "linux — Linux kernel source tree",
-    "description": "Solution DevOps conçue pour automatiser et simplifier le déploiement d'infrastructures. Développé en C. 235 238 étoiles sur GitHub.",
+    "description": "Linux est le noyau de systeme d'exploitation open-source le plus utilise au monde. Developpe par Linus Torvalds et des milliers de contributeurs, il fait tourner la majorite des serveurs, smartphones (Android) et supercalculateurs. 235 238 etoiles sur GitHub.",
     "url": "https://github.com/torvalds/linux",
     "categorie": "DevOps",
     "stars": 235238,
