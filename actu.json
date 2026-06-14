@@ -1,5 +1,57 @@
 [
   {
+    "titre": "omnigent — A meta-harness for all your AI agents.  Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you",
+    "description": "Projet pour d'intelligence artificielle dans le domaine d'agents intelligents destiné à les équipes. Développé en Python. 586 étoiles sur GitHub.",
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "categorie": "Agents",
+    "stars": 586,
+    "lang": "Python",
+    "forks": 76,
+    "issues": 18,
+    "license": "Apache-2.0",
+    "date": "2026-06-14",
+    "date_added": "2026-06-14"
+  },
+  {
+    "titre": "architect-loop — Claude Fable 5 as architect, GPT-5.5 Codex as builder, the repo as memory - a research-backed Claude Code skill for the ",
+    "description": "Projet pour créer dans le domaine rechercher. Développé en HTML. 327 étoiles sur GitHub. Plus précisément : Claude Fable 5 as architect, GPT-5.5 Codex as builder, repo as memory - research-backed Claude Code skill for cross-vendor agent loop.",
+    "url": "https://github.com/DanMcInerney/architect-loop",
+    "categorie": "Agents",
+    "stars": 327,
+    "lang": "HTML",
+    "forks": 22,
+    "issues": 1,
+    "license": "MIT",
+    "date": "2026-06-14",
+    "date_added": "2026-06-14"
+  },
+  {
+    "titre": "Third-Eye — A production-grade OSINT platform that provides situational awareness across multiple intelligence domains.",
+    "description": "Projet pour créer. Développé en TypeScript. 285 étoiles sur GitHub. Plus précisément : production-grade OSINT platform provides situational awareness across multiple intelligence domains.",
+    "url": "https://github.com/eli-labz/Third-Eye",
+    "categorie": "IA",
+    "stars": 285,
+    "lang": "TypeScript",
+    "forks": 1,
+    "issues": 0,
+    "license": "MIT",
+    "date": "2026-06-14",
+    "date_added": "2026-06-14"
+  },
+  {
+    "titre": "MSA (MiniMax-AI)",
+    "description": "Projet pour créer. Développé en Python. 254 étoiles sur GitHub.",
+    "url": "https://github.com/MiniMax-AI/MSA",
+    "categorie": "Général",
+    "stars": 254,
+    "lang": "Python",
+    "forks": 19,
+    "issues": 2,
+    "license": "MIT",
+    "date": "2026-06-14",
+    "date_added": "2026-06-14"
+  },
+  {
     "titre": "Microsoft-Activation-Scripts — Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with a",
     "description": "Projet pour open-source destiné à les entreprises. Développé en Batchfile. 178 186 étoiles sur GitHub. Plus précisément : Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
     "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
