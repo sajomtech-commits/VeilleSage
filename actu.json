@@ -1,5 +1,57 @@
 [
   {
+    "titre": "yoinks — yoink any video from your terminal. no shady ads.",
+    "description": "Projet pour en ligne de commande dans le domaine vidéo. Développé en TypeScript. 448 étoiles sur GitHub. Plus précisément : yoink any video from terminal. no shady ads.",
+    "url": "https://github.com/pablostanley/yoinks",
+    "categorie": "Outils",
+    "stars": 448,
+    "lang": "TypeScript",
+    "forks": 43,
+    "issues": 6,
+    "license": "MIT",
+    "date": "2026-07-18",
+    "date_added": "2026-07-18"
+  },
+  {
+    "titre": "bolt-slides — Use any agent to create stunning, interactive presentations",
+    "description": "Projet pour créer dans le domaine d'agents intelligents. Développé en TypeScript. 323 étoiles sur GitHub. Plus précisément : Use any agent to create stunning, interactive presentations.",
+    "url": "https://github.com/stackblitz/bolt-slides",
+    "categorie": "Agents",
+    "stars": 323,
+    "lang": "TypeScript",
+    "forks": 47,
+    "issues": 2,
+    "license": "MIT",
+    "date": "2026-07-18",
+    "date_added": "2026-07-18"
+  },
+  {
+    "titre": "conversation-steganography — Use LLMS to hide secret messages inside normal-looking chat text",
+    "description": "Projet pour d'intelligence artificielle. Développé en Go. 319 étoiles sur GitHub. Plus précisément : Use LLMS to hide secret messages inside normal-looking chat text.",
+    "url": "https://github.com/nethical6/conversation-steganography",
+    "categorie": "IA",
+    "stars": 319,
+    "lang": "Go",
+    "forks": 16,
+    "issues": 0,
+    "license": "GPL-3.0",
+    "date": "2026-07-18",
+    "date_added": "2026-07-18"
+  },
+  {
+    "titre": "Samsung_Vulnerabilities — 176 vulnerabilities in Samsung preinstalled Android apps",
+    "description": "Projet pour mobile. Développé en Java. 251 étoiles sur GitHub. Plus précisément : 176 vulnerabilities in Samsung preinstalled Android apps.",
+    "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
+    "categorie": "Mobile",
+    "stars": 251,
+    "lang": "Java",
+    "forks": 60,
+    "issues": 0,
+    "license": "BSD-2-Clause",
+    "date": "2026-07-18",
+    "date_added": "2026-07-18"
+  },
+  {
     "titre": "wardrobe — Your clothes, extracted and organized with gpt-image.",
     "description": "Projet pour d'intelligence artificielle dans le domaine d'analyse d'images destiné à les entreprises. Développé en JavaScript. 689 étoiles sur GitHub. Plus précisément : clothes, extracted and organized with gpt-image.",
     "url": "https://github.com/tandpfun/wardrobe",
