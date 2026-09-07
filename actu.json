@@ -130,7 +130,7 @@
     "date_added": "2026-09-07"
   },
   {
-    "titre": "fermats-last-theorem (anthropics)",
+    "titre": "fermats-last-theorem",
     "description": "Projet pour créer. Développé en Lean. 923 étoiles sur GitHub.",
     "url": "https://github.com/anthropics/fermats-last-theorem",
     "categorie": "Général",
@@ -286,7 +286,7 @@
     "date_added": "2026-09-07"
   },
   {
-    "titre": "agent-memory (tigerless-labs)",
+    "titre": "agent-memory",
     "description": "Projet pour créer. Développé en Python. 460 étoiles sur GitHub.",
     "url": "https://github.com/tigerless-labs/agent-memory",
     "categorie": "Agents",
@@ -312,7 +312,7 @@
     "date_added": "2026-09-07"
   },
   {
-    "titre": "Choruz (inclusionAI)",
+    "titre": "Choruz",
     "description": "Projet pour créer. Développé en Rust. 361 étoiles sur GitHub.",
     "url": "https://github.com/inclusionAI/Choruz",
     "categorie": "Général",
@@ -325,7 +325,7 @@
     "date_added": "2026-09-07"
   },
   {
-    "titre": "ffmpeg-skill (kajisho5)",
+    "titre": "ffmpeg-skill",
     "description": "Projet pour créer. Développé en Python. 346 étoiles sur GitHub.",
     "url": "https://github.com/kajisho5/ffmpeg-skill",
     "categorie": "Général",
@@ -403,7 +403,7 @@
     "date_added": "2026-07-31"
   },
   {
-    "titre": "decimen-optical-transfer (bashalarmistalt)",
+    "titre": "decimen-optical-transfer",
     "description": "Projet pour créer. Développé en TypeScript. 387 étoiles sur GitHub.",
     "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
     "categorie": "DevOps",
@@ -442,7 +442,7 @@
     "date_added": "2026-07-31"
   },
   {
-    "titre": "ai-design-skills (elayadesign)",
+    "titre": "ai-design-skills",
     "description": "Projet pour créer. 237 étoiles sur GitHub.",
     "url": "https://github.com/elayadesign/ai-design-skills",
     "categorie": "IA",
@@ -546,7 +546,7 @@
     "date_added": "2026-07-30"
   },
   {
-    "titre": "druk (letstri)",
+    "titre": "druk",
     "description": "Projet pour créer. Développé en TypeScript. 266 étoiles sur GitHub.",
     "url": "https://github.com/letstri/druk",
     "categorie": "Général",
@@ -559,7 +559,7 @@
     "date_added": "2026-07-30"
   },
   {
-    "titre": "DramaticShapeVoxelMod (DramaticShape)",
+    "titre": "DramaticShapeVoxelMod",
     "description": "Projet pour créer. Développé en Lua. 247 étoiles sur GitHub.",
     "url": "https://github.com/DramaticShape/DramaticShapeVoxelMod",
     "categorie": "Général",
@@ -598,7 +598,7 @@
     "date_added": "2026-07-30"
   },
   {
-    "titre": "netherite (Infatoshi)",
+    "titre": "netherite",
     "description": "Projet pour créer. Développé en C. 209 étoiles sur GitHub.",
     "url": "https://github.com/Infatoshi/netherite",
     "categorie": "Général",
@@ -715,7 +715,7 @@
     "date_added": "2026-07-29"
   },
   {
-    "titre": "monorepo-nest-next-starter (dimmas893)",
+    "titre": "monorepo-nest-next-starter",
     "description": "Projet pour créer. Développé en TypeScript. 220 étoiles sur GitHub.",
     "url": "https://github.com/dimmas893/monorepo-nest-next-starter",
     "categorie": "Général",
@@ -741,7 +741,7 @@
     "date_added": "2026-07-29"
   },
   {
-    "titre": "image-to-3d (dotneet)",
+    "titre": "image-to-3d",
     "description": "Projet pour créer. Développé en Python. 192 étoiles sur GitHub.",
     "url": "https://github.com/dotneet/image-to-3d",
     "categorie": "Image/Vision",
@@ -1014,7 +1014,7 @@
     "date_added": "2026-07-27"
   },
   {
-    "titre": "Auto-BenchMax (sunny-glow)",
+    "titre": "Auto-BenchMax",
     "description": "Projet pour créer. Développé en Python. 212 étoiles sur GitHub.",
     "url": "https://github.com/sunny-glow/Auto-BenchMax",
     "categorie": "Général",
@@ -1144,7 +1144,7 @@
     "date_added": "2026-07-26"
   },
   {
-    "titre": "esp32-ai (slvDev)",
+    "titre": "esp32-a",
     "description": "Projet pour créer. Développé en Python. 472 étoiles sur GitHub.",
     "url": "https://github.com/slvDev/esp32-ai",
     "categorie": "IA",
@@ -1235,7 +1235,7 @@
     "date_added": "2026-07-25"
   },
   {
-    "titre": "claude-youtube-editor (hassancs91)",
+    "titre": "claude-youtube-editor",
     "description": "Projet pour créer. Développé en TypeScript. 196 étoiles sur GitHub.",
     "url": "https://github.com/hassancs91/claude-youtube-editor",
     "categorie": "IA",
@@ -1261,7 +1261,7 @@
     "date_added": "2026-07-24"
   },
   {
-    "titre": "openworker (andrewyng)",
+    "titre": "openworker",
     "description": "Projet pour créer. Développé en Python. 1 801 étoiles sur GitHub.",
     "url": "https://github.com/andrewyng/openworker",
     "categorie": "Général",
@@ -1365,7 +1365,7 @@
     "date_added": "2026-07-24"
   },
   {
-    "titre": "PM-Sniper (AdelanSoulX)",
+    "titre": "PM-Sniper",
     "description": "Projet pour créer. Développé en Python. 351 étoiles sur GitHub.",
     "url": "https://github.com/AdelanSoulX/PM-Sniper",
     "categorie": "Général",
@@ -1378,7 +1378,7 @@
     "date_added": "2026-07-24"
   },
   {
-    "titre": "adelan-support (AdelanSupport)",
+    "titre": "adelan-suppor",
     "description": "Projet pour créer. Développé en Python. 347 étoiles sur GitHub.",
     "url": "https://github.com/AdelanSupport/adelan-support",
     "categorie": "Général",
@@ -1495,7 +1495,7 @@
     "date_added": "2026-07-24"
   },
   {
-    "titre": "codor (rjx18)",
+    "titre": "codor",
     "description": "Projet pour créer. Développé en TypeScript. 216 étoiles sur GitHub.",
     "url": "https://github.com/rjx18/codor",
     "categorie": "Général",
@@ -1625,7 +1625,7 @@
     "date_added": "2026-07-21"
   },
   {
-    "titre": "Awesome_ai_learning (h9-tec)",
+    "titre": "Awesome_ai_learnin",
     "description": "Projet pour créer. 222 étoiles sur GitHub.",
     "url": "https://github.com/h9-tec/Awesome_ai_learning",
     "categorie": "IA",
@@ -1716,7 +1716,7 @@
     "date_added": "2026-07-20"
   },
   {
-    "titre": "sallyport (OlegSotnikov)",
+    "titre": "sallypor",
     "description": "Projet pour créer. Développé en Swift. 321 étoiles sur GitHub.",
     "url": "https://github.com/OlegSotnikov/sallyport",
     "categorie": "Général",
@@ -1768,7 +1768,7 @@
     "date_added": "2026-07-19"
   },
   {
-    "titre": "Holo (JustinGamer191)",
+    "titre": "Holo",
     "description": "Projet pour créer. Développé en Swift. 302 étoiles sur GitHub.",
     "url": "https://github.com/JustinGamer191/Holo",
     "categorie": "Général",
@@ -1911,7 +1911,7 @@
     "date_added": "2026-07-17"
   },
   {
-    "titre": "HMS (Shadow-Weave)",
+    "titre": "HMS",
     "description": "Projet pour créer. Développé en Python. 307 étoiles sur GitHub.",
     "url": "https://github.com/Shadow-Weave/HMS",
     "categorie": "Général",
@@ -1924,7 +1924,7 @@
     "date_added": "2026-07-17"
   },
   {
-    "titre": "Wan-Dancer (Wan-Video)",
+    "titre": "Wan-Dancer",
     "description": "Projet pour créer. Développé en Python. 288 étoiles sur GitHub.",
     "url": "https://github.com/Wan-Video/Wan-Dancer",
     "categorie": "Général",
@@ -2002,7 +2002,7 @@
     "date_added": "2026-07-16"
   },
   {
-    "titre": "Aether (CluvexStudio)",
+    "titre": "Aether",
     "description": "Projet pour créer. Développé en Rust. 557 étoiles sur GitHub.",
     "url": "https://github.com/CluvexStudio/Aether",
     "categorie": "Général",
@@ -2041,7 +2041,7 @@
     "date_added": "2026-07-16"
   },
   {
-    "titre": "Rebuttal-Skill (TobiasLee)",
+    "titre": "Rebuttal-Skill",
     "description": "Projet pour créer. 269 étoiles sur GitHub.",
     "url": "https://github.com/TobiasLee/Rebuttal-Skill",
     "categorie": "Général",
@@ -2106,7 +2106,7 @@
     "date_added": "2026-07-15"
   },
   {
-    "titre": "Marzban-Panel (x4gKing)",
+    "titre": "Marzban-Panel",
     "description": "Projet pour créer. Développé en Dockerfile. 675 étoiles sur GitHub.",
     "url": "https://github.com/x4gKing/Marzban-Panel",
     "categorie": "Général",
@@ -2158,7 +2158,7 @@
     "date_added": "2026-07-15"
   },
   {
-    "titre": "Marzban-Node (x4gKing)",
+    "titre": "Marzban-Node",
     "description": "Projet pour créer. Développé en Dockerfile. 571 étoiles sur GitHub.",
     "url": "https://github.com/x4gKing/Marzban-Node",
     "categorie": "Outils",
@@ -2197,7 +2197,7 @@
     "date_added": "2026-07-15"
   },
   {
-    "titre": "scaling-octo-engine (JexTradesLab)",
+    "titre": "scaling-octo-engine",
     "description": "Projet pour créer. Développé en TypeScript. 307 étoiles sur GitHub.",
     "url": "https://github.com/JexTradesLab/scaling-octo-engine",
     "categorie": "Général",
@@ -2340,7 +2340,7 @@
     "date_added": "2026-07-15"
   },
   {
-    "titre": "Game-Copier (BloxHubSSS)",
+    "titre": "Game-Copier",
     "description": "Projet pour créer. 220 étoiles sur GitHub.",
     "url": "https://github.com/BloxHubSSS/Game-Copier",
     "categorie": "Général",
@@ -2366,7 +2366,7 @@
     "date_added": "2026-07-15"
   },
   {
-    "titre": "ai-virtual-phone (xiaolongbao0709)",
+    "titre": "ai-virtual-phone",
     "description": "Projet pour créer. Développé en TypeScript. 199 étoiles sur GitHub.",
     "url": "https://github.com/xiaolongbao0709/ai-virtual-phone",
     "categorie": "IA",
@@ -2392,7 +2392,7 @@
     "date_added": "2026-07-15"
   },
   {
-    "titre": "Amicro--Micro-transitions- (Subhan-code)",
+    "titre": "Amicro--Micro-transitions-",
     "description": "Projet pour créer. Développé en TypeScript. 194 étoiles sur GitHub.",
     "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
     "categorie": "Général",
@@ -2418,7 +2418,7 @@
     "date_added": "2026-07-12"
   },
   {
-    "titre": "pm-ninesoulx (DexCrancer)",
+    "titre": "pm-ninesoulx",
     "description": "Projet pour créer. 272 étoiles sur GitHub.",
     "url": "https://github.com/DexCrancer/pm-ninesoulx",
     "categorie": "Général",
@@ -2431,7 +2431,7 @@
     "date_added": "2026-07-12"
   },
   {
-    "titre": "antidoom (Liquid4All)",
+    "titre": "antidoom",
     "description": "Projet pour créer. Développé en Python. 271 étoiles sur GitHub.",
     "url": "https://github.com/Liquid4All/antidoom",
     "categorie": "Général",
@@ -2457,7 +2457,7 @@
     "date_added": "2026-07-12"
   },
   {
-    "titre": "risk-free-sniper (zerosupercycIe)",
+    "titre": "risk-free-sniper",
     "description": "Projet pour créer. Développé en Python. 267 étoiles sur GitHub.",
     "url": "https://github.com/zerosupercycIe/risk-free-sniper",
     "categorie": "Général",
@@ -2613,7 +2613,7 @@
     "date_added": "2026-07-10"
   },
   {
-    "titre": "3x-ui-Upgrade (x4gKing)",
+    "titre": "3x-ui-Upgrade",
     "description": "Projet pour créer. Développé en Dockerfile. 387 étoiles sur GitHub.",
     "url": "https://github.com/x4gKing/3x-ui-Upgrade",
     "categorie": "Design/UI",
@@ -2626,7 +2626,7 @@
     "date_added": "2026-07-10"
   },
   {
-    "titre": "PasarGuard (x4gKing)",
+    "titre": "PasarGuard",
     "description": "Projet pour créer. Développé en Dockerfile. 357 étoiles sur GitHub.",
     "url": "https://github.com/x4gKing/PasarGuard",
     "categorie": "Général",
@@ -2639,7 +2639,7 @@
     "date_added": "2026-07-10"
   },
   {
-    "titre": "PasarGuard-Node (x4gKing)",
+    "titre": "PasarGuard-Node",
     "description": "Projet pour créer. Développé en Dockerfile. 331 étoiles sur GitHub.",
     "url": "https://github.com/x4gKing/PasarGuard-Node",
     "categorie": "Outils",
@@ -2652,7 +2652,7 @@
     "date_added": "2026-07-10"
   },
   {
-    "titre": "gdid-reversal (SmtimesIWndr)",
+    "titre": "gdid-reversal",
     "description": "Projet pour créer. 292 étoiles sur GitHub.",
     "url": "https://github.com/SmtimesIWndr/gdid-reversal",
     "categorie": "Général",
@@ -2678,7 +2678,7 @@
     "date_added": "2026-07-09"
   },
   {
-    "titre": "os-taxonomy (withmarbleapp)",
+    "titre": "os-taxonomy",
     "description": "Projet pour créer. Développé en JavaScript. 570 étoiles sur GitHub.",
     "url": "https://github.com/withmarbleapp/os-taxonomy",
     "categorie": "Général",
@@ -2691,7 +2691,7 @@
     "date_added": "2026-07-09"
   },
   {
-    "titre": "Januscape (V4bel)",
+    "titre": "Januscape",
     "description": "Projet pour créer. Développé en C. 412 étoiles sur GitHub.",
     "url": "https://github.com/V4bel/Januscape",
     "categorie": "Général",
@@ -2769,7 +2769,7 @@
     "date_added": "2026-07-09"
   },
   {
-    "titre": "3x-ui (x4gKing)",
+    "titre": "3x-u",
     "description": "Projet pour créer. Développé en Dockerfile. 295 étoiles sur GitHub.",
     "url": "https://github.com/x4gKing/3x-ui",
     "categorie": "Design/UI",
@@ -2821,7 +2821,7 @@
     "date_added": "2026-07-08"
   },
   {
-    "titre": "X4G (x4gKing)",
+    "titre": "X4G",
     "description": "Projet pour créer. Développé en Python. 1 031 étoiles sur GitHub.",
     "url": "https://github.com/x4gKing/X4G",
     "categorie": "Général",
@@ -2977,7 +2977,7 @@
     "date_added": "2026-07-07"
   },
   {
-    "titre": "CCleaner-Activator (dinorah85baspedeo)",
+    "titre": "CCleaner-Activator",
     "description": "Projet pour créer. 231 étoiles sur GitHub.",
     "url": "https://github.com/dinorah85baspedeo/CCleaner-Activator",
     "categorie": "Général",
@@ -3016,7 +3016,7 @@
     "date_added": "2026-07-06"
   },
   {
-    "titre": "skills (dzhng)",
+    "titre": "skills",
     "description": "Projet pour créer. Développé en JavaScript. 348 étoiles sur GitHub.",
     "url": "https://github.com/dzhng/skills",
     "categorie": "Général",
@@ -3276,7 +3276,7 @@
     "date_added": "2026-07-04"
   },
   {
-    "titre": "FuckClaude (LinXiaoTao)",
+    "titre": "FuckClaude",
     "description": "Projet pour créer. Développé en Astro. 289 étoiles sur GitHub.",
     "url": "https://github.com/LinXiaoTao/FuckClaude",
     "categorie": "IA",
@@ -3315,7 +3315,7 @@
     "date_added": "2026-07-04"
   },
   {
-    "titre": "LongCat-2.0 (meituan-longcat)",
+    "titre": "LongCat-2.0",
     "description": "Projet pour créer. 218 étoiles sur GitHub.",
     "url": "https://github.com/meituan-longcat/LongCat-2.0",
     "categorie": "Général",
@@ -3354,7 +3354,7 @@
     "date_added": "2026-07-04"
   },
   {
-    "titre": "science-skills (JimLiu)",
+    "titre": "science-skills",
     "description": "Projet pour créer. Développé en HTML. 181 étoiles sur GitHub.",
     "url": "https://github.com/JimLiu/science-skills",
     "categorie": "DevOps",
@@ -3393,7 +3393,7 @@
     "date_added": "2026-07-04"
   },
   {
-    "titre": "chatgpt-register-sub2api (akihitohyh)",
+    "titre": "chatgpt-register-sub2ap",
     "description": "Projet pour créer. Développé en Python. 168 étoiles sur GitHub.",
     "url": "https://github.com/akihitohyh/chatgpt-register-sub2api",
     "categorie": "IA",
@@ -3861,7 +3861,7 @@
     "date_added": "2026-06-30"
   },
   {
-    "titre": "Codex-5.5-codex-instruct-5.5 (yynxxxxx)",
+    "titre": "Codex-5.5-codex-instruct-5.5",
     "description": "Projet pour créer. Développé en Python. 567 étoiles sur GitHub.",
     "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5",
     "categorie": "Général",
@@ -3939,7 +3939,7 @@
     "date_added": "2026-06-30"
   },
   {
-    "titre": "clash (downclash)",
+    "titre": "clash",
     "description": "Projet pour créer. Développé en JavaScript. 340 étoiles sur GitHub.",
     "url": "https://github.com/downclash/clash",
     "categorie": "Général",
@@ -4004,7 +4004,7 @@
     "date_added": "2026-06-29"
   },
   {
-    "titre": "mercadona-cli (ivorpad)",
+    "titre": "mercadona-cl",
     "description": "Projet pour créer. Développé en Go. 230 étoiles sur GitHub.",
     "url": "https://github.com/ivorpad/mercadona-cli",
     "categorie": "Outils",
@@ -4043,7 +4043,7 @@
     "date_added": "2026-06-29"
   },
   {
-    "titre": "dd (ricccrd)",
+    "titre": "dd",
     "description": "Projet pour créer. Développé en C. 223 étoiles sur GitHub.",
     "url": "https://github.com/ricccrd/dd",
     "categorie": "Général",
@@ -4108,7 +4108,7 @@
     "date_added": "2026-06-28"
   },
   {
-    "titre": "pm-copy-trader (PMTraderAdam)",
+    "titre": "pm-copy-trader",
     "description": "Projet pour créer. Développé en TypeScript. 260 étoiles sur GitHub.",
     "url": "https://github.com/PMTraderAdam/pm-copy-trader",
     "categorie": "Général",
@@ -4121,7 +4121,7 @@
     "date_added": "2026-06-28"
   },
   {
-    "titre": "sillygoose (slimopump)",
+    "titre": "sillygoose",
     "description": "Projet pour créer. 259 étoiles sur GitHub.",
     "url": "https://github.com/slimopump/sillygoose",
     "categorie": "Outils",
@@ -4225,7 +4225,7 @@
     "date_added": "2026-06-27"
   },
   {
-    "titre": "mithka (iebb)",
+    "titre": "mithka",
     "description": "Projet pour créer. Développé en Dart. 230 étoiles sur GitHub.",
     "url": "https://github.com/iebb/mithka",
     "categorie": "Open Source",
@@ -4238,7 +4238,7 @@
     "date_added": "2026-06-27"
   },
   {
-    "titre": "cfnew-deployer (byJoey)",
+    "titre": "cfnew-deployer",
     "description": "Projet pour créer. Développé en JavaScript. 224 étoiles sur GitHub.",
     "url": "https://github.com/byJoey/cfnew-deployer",
     "categorie": "DevOps",
@@ -4264,7 +4264,7 @@
     "date_added": "2026-06-27"
   },
   {
-    "titre": "autoshorts (JayWebtech)",
+    "titre": "autoshorts",
     "description": "Projet pour créer. Développé en Rust. 196 étoiles sur GitHub.",
     "url": "https://github.com/JayWebtech/autoshorts",
     "categorie": "Général",
@@ -4329,7 +4329,7 @@
     "date_added": "2026-06-26"
   },
   {
-    "titre": "pm-adam-trader (PMTraderAdam)",
+    "titre": "pm-adam-trader",
     "description": "Projet pour créer. Développé en TypeScript. 259 étoiles sur GitHub.",
     "url": "https://github.com/PMTraderAdam/pm-adam-trader",
     "categorie": "Général",
@@ -4368,7 +4368,7 @@
     "date_added": "2026-06-26"
   },
   {
-    "titre": "Casting-Workflow (dama-cyber)",
+    "titre": "Casting-Workflow",
     "description": "Projet pour créer. Développé en Python. 186 étoiles sur GitHub.",
     "url": "https://github.com/dama-cyber/Casting-Workflow",
     "categorie": "Général",
@@ -4511,7 +4511,7 @@
     "date_added": "2026-06-25"
   },
   {
-    "titre": "PMTraderAdam (PMTraderAdam)",
+    "titre": "PMTraderAdam",
     "description": "Projet pour créer. 174 étoiles sur GitHub.",
     "url": "https://github.com/PMTraderAdam/PMTraderAdam",
     "categorie": "Général",
@@ -4524,7 +4524,7 @@
     "date_added": "2026-06-25"
   },
   {
-    "titre": "learn-ai-practice (i5ting)",
+    "titre": "learn-ai-practice",
     "description": "Projet pour créer. 170 étoiles sur GitHub.",
     "url": "https://github.com/i5ting/learn-ai-practice",
     "categorie": "IA",
@@ -4680,7 +4680,7 @@
     "date_added": "2026-06-24"
   },
   {
-    "titre": "radiology-skills (huang-sir1)",
+    "titre": "radiology-skills",
     "description": "Projet pour créer. Développé en Python. 149 étoiles sur GitHub.",
     "url": "https://github.com/huang-sir1/radiology-skills",
     "categorie": "Général",
@@ -4732,7 +4732,7 @@
     "date_added": "2026-06-23"
   },
   {
-    "titre": "birds.cafe (kanavtwtgg)",
+    "titre": "birds.cafe",
     "description": "Projet pour créer. Développé en JavaScript. 586 étoiles sur GitHub.",
     "url": "https://github.com/kanavtwtgg/birds.cafe",
     "categorie": "Data",
@@ -4797,7 +4797,7 @@
     "date_added": "2026-06-23"
   },
   {
-    "titre": "fugu (SakanaAI)",
+    "titre": "fugu",
     "description": "Projet pour créer. Développé en Shell. 217 étoiles sur GitHub.",
     "url": "https://github.com/SakanaAI/fugu",
     "categorie": "Général",
@@ -4888,7 +4888,7 @@
     "date_added": "2026-06-23"
   },
   {
-    "titre": "Cowart (zhongerxin)",
+    "titre": "Cowar",
     "description": "Projet pour créer. Développé en JavaScript. 1 450 étoiles sur GitHub.",
     "url": "https://github.com/zhongerxin/Cowart",
     "categorie": "Général",
@@ -4940,7 +4940,7 @@
     "date_added": "2026-06-22"
   },
   {
-    "titre": "FUNCAPTCHAV3 (clent267)",
+    "titre": "FUNCAPTCHAV3",
     "description": "Projet pour créer. Développé en Python. 238 étoiles sur GitHub.",
     "url": "https://github.com/clent267/FUNCAPTCHAV3",
     "categorie": "Général",
@@ -4992,7 +4992,7 @@
     "date_added": "2026-06-21"
   },
   {
-    "titre": "cowart (zhongerxin)",
+    "titre": "cowar",
     "description": "Projet pour créer. Développé en JavaScript. 377 étoiles sur GitHub.",
     "url": "https://github.com/zhongerxin/cowart",
     "categorie": "Général",
@@ -5044,7 +5044,7 @@
     "date_added": "2026-06-21"
   },
   {
-    "titre": "patterngen-oss (halfof8)",
+    "titre": "patterngen-oss",
     "description": "Projet pour créer. Développé en TypeScript. 194 étoiles sur GitHub.",
     "url": "https://github.com/halfof8/patterngen-oss",
     "categorie": "Général",
@@ -5109,7 +5109,7 @@
     "date_added": "2026-06-20"
   },
   {
-    "titre": "intruth-factcheck (rpanigrahi222)",
+    "titre": "intruth-factcheck",
     "description": "Projet pour créer. Développé en JavaScript. 214 étoiles sur GitHub.",
     "url": "https://github.com/rpanigrahi222/intruth-factcheck",
     "categorie": "Général",
@@ -5161,7 +5161,7 @@
     "date_added": "2026-06-20"
   },
   {
-    "titre": "awesome-world-action-models (world-action-models)",
+    "titre": "awesome-world-action-models",
     "description": "Projet pour créer. 187 étoiles sur GitHub.",
     "url": "https://github.com/world-action-models/awesome-world-action-models",
     "categorie": "ML",
@@ -5174,7 +5174,7 @@
     "date_added": "2026-06-20"
   },
   {
-    "titre": "Maya-2026-Animation-Workflow (ApothecarySeize)",
+    "titre": "Maya-2026-Animation-Workflow",
     "description": "Projet pour créer. 319 étoiles sur GitHub.",
     "url": "https://github.com/ApothecarySeize/Maya-2026-Animation-Workflow",
     "categorie": "Design/UI",
@@ -5265,7 +5265,7 @@
     "date_added": "2026-06-19"
   },
   {
-    "titre": "codex-referral-risk-research (Tyxy-R)",
+    "titre": "codex-referral-risk-research",
     "description": "Projet pour créer. Développé en Python. 222 étoiles sur GitHub.",
     "url": "https://github.com/Tyxy-R/codex-referral-risk-research",
     "categorie": "Général",
@@ -5486,7 +5486,7 @@
     "date_added": "2026-06-17"
   },
   {
-    "titre": "vorssaint-utils (vorssaint)",
+    "titre": "vorssaint-utils",
     "description": "Projet pour créer. Développé en Swift. 412 étoiles sur GitHub.",
     "url": "https://github.com/vorssaint/vorssaint-utils",
     "categorie": "IA",
@@ -5499,7 +5499,7 @@
     "date_added": "2026-06-16"
   },
   {
-    "titre": "GoldenEye-Recomp (SunJaycy)",
+    "titre": "GoldenEye-Recomp",
     "description": "Projet pour créer. Développé en C++. 389 étoiles sur GitHub.",
     "url": "https://github.com/SunJaycy/GoldenEye-Recomp",
     "categorie": "Outils",
@@ -5655,7 +5655,7 @@
     "date_added": "2026-06-14"
   },
   {
-    "titre": "MSA (MiniMax-AI)",
+    "titre": "MSA",
     "description": "Projet pour créer. Développé en Python. 254 étoiles sur GitHub.",
     "url": "https://github.com/MiniMax-AI/MSA",
     "categorie": "Général",
@@ -5707,7 +5707,7 @@
     "date_added": "2026-06-13"
   },
   {
-    "titre": "world-of-claudecraft (levy-street)",
+    "titre": "world-of-claudecraf",
     "description": "Projet pour créer. Développé en TypeScript. 458 étoiles sur GitHub.",
     "url": "https://github.com/levy-street/world-of-claudecraft",
     "categorie": "IA",
@@ -5811,7 +5811,7 @@
     "date_added": "2026-06-13"
   },
   {
-    "titre": "inbrain (inbrainfun)",
+    "titre": "inbrain",
     "description": "Projet pour créer. Développé en TypeScript. 246 étoiles sur GitHub.",
     "url": "https://github.com/inbrainfun/inbrain",
     "categorie": "IA",
@@ -5824,7 +5824,7 @@
     "date_added": "2026-06-13"
   },
   {
-    "titre": "MiMo-Code (XiaomiMiMo)",
+    "titre": "MiMo-Code",
     "description": "Projet pour créer. Développé en TypeScript. 1 389 étoiles sur GitHub.",
     "url": "https://github.com/XiaomiMiMo/MiMo-Code",
     "categorie": "Général",
@@ -5850,7 +5850,7 @@
     "date_added": "2026-06-11"
   },
   {
-    "titre": "NuvioDesktop (NuvioMedia)",
+    "titre": "NuvioDesktop",
     "description": "Projet pour créer. Développé en Kotlin. 239 étoiles sur GitHub.",
     "url": "https://github.com/NuvioMedia/NuvioDesktop",
     "categorie": "Général",
@@ -5980,7 +5980,7 @@
     "date_added": "2026-06-10"
   },
   {
-    "titre": "gpt-pp (jmmy9609-design)",
+    "titre": "gpt-pp",
     "description": "Projet pour créer. Développé en Python. 281 étoiles sur GitHub.",
     "url": "https://github.com/jmmy9609-design/gpt-pp",
     "categorie": "IA",
@@ -5993,7 +5993,7 @@
     "date_added": "2026-06-10"
   },
   {
-    "titre": "TinyRetroPad (PlummersSoftwareLLC)",
+    "titre": "TinyRetroPad",
     "description": "Projet pour créer. Développé en Assembly. 223 étoiles sur GitHub.",
     "url": "https://github.com/PlummersSoftwareLLC/TinyRetroPad",
     "categorie": "Général",
@@ -6071,7 +6071,7 @@
     "date_added": "2026-06-09"
   },
   {
-    "titre": "performativeUI (vorpus)",
+    "titre": "performativeUI",
     "description": "Projet pour créer. Développé en TypeScript. 319 étoiles sur GitHub.",
     "url": "https://github.com/vorpus/performativeUI",
     "categorie": "Design/UI",
@@ -6097,7 +6097,7 @@
     "date_added": "2026-06-09"
   },
   {
-    "titre": "aethergate-pro (JFGAtlas)",
+    "titre": "aethergate-pro",
     "description": "Projet pour créer. Développé en Python. 229 étoiles sur GitHub.",
     "url": "https://github.com/JFGAtlas/aethergate-pro",
     "categorie": "Général",
@@ -6240,7 +6240,7 @@
     "date_added": "2026-06-08"
   },
   {
-    "titre": "parcle-memory (Parcle-AI)",
+    "titre": "parcle-memory",
     "description": "Projet pour créer. 260 étoiles sur GitHub.",
     "url": "https://github.com/Parcle-AI/parcle-memory",
     "categorie": "Général",
@@ -6435,7 +6435,7 @@
     "date_added": "2026-06-07"
   },
   {
-    "titre": "smart-home-button (Jasionf)",
+    "titre": "smart-home-button",
     "description": "Projet pour créer. Développé en C++. 172 étoiles sur GitHub.",
     "url": "https://github.com/Jasionf/smart-home-button",
     "categorie": "Général",
@@ -6448,7 +6448,7 @@
     "date_added": "2026-06-07"
   },
   {
-    "titre": "dots.tts (rednote-hilab)",
+    "titre": "dots.tts",
     "description": "Projet pour créer. Développé en Python. 168 étoiles sur GitHub.",
     "url": "https://github.com/rednote-hilab/dots.tts",
     "categorie": "Général",
@@ -6474,7 +6474,7 @@
     "date_added": "2026-06-06"
   },
   {
-    "titre": "sage (ConiferKit)",
+    "titre": "sage",
     "description": "Projet pour créer. 303 étoiles sur GitHub.",
     "url": "https://github.com/ConiferKit/sage",
     "categorie": "Général",
