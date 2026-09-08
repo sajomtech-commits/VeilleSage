@@ -390,7 +390,8 @@ def fetch_trending():
                     cat = infer_category(item['name'] + " " + (item.get('description','') or ""), "")
                     desc = (item.get('description') or "")[:desc_max] if item.get('description') else ""
                     owner = item['owner']['login']
-                    titre = f"{item['name']} — {desc}" if desc else f"{item['name']} ({owner})"
+                    # Titre 100% français : simple nom du dépôt, sans description anglaise
+                    titre = item['name']
                     
                     # Construction d'une description en français
                     raw_desc = (item.get('description') or "Projet GitHub trending.")
@@ -433,7 +434,8 @@ def fetch_trending():
                     all_items.add(name)
                     desc = (item.get('description') or "")[:desc_max] if item.get('description') else ""
                     owner = item['owner']['login']
-                    titre = f"{item['name']} — {desc}" if desc else f"{item['name']} ({owner})"
+                    # Titre 100% français : simple nom du dépôt, sans description anglaise
+                    titre = item['name']
                     raw_desc = (item.get('description') or "Projet GitHub trending.")
                     fr_desc = frenchify_desc(raw_desc, item)
                     articles.append({

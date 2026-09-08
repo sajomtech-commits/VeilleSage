@@ -110,6 +110,10 @@ main{max-width:640px;margin:0 auto;padding:16px}
 }
 .card-title a{color:var(--text);text-decoration:none}
 .card-title a:hover{color:var(--accent)}
+.card-desc{
+  font-size:12.5px;color:#b0b0c8;line-height:1.45;margin:2px 0 5px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
 .card-meta{font-size:11px;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .card-meta .stars{color:var(--gold)}
 .card-meta .lang{color:var(--accent)}
@@ -272,6 +276,7 @@ function renderArticles(filter){
           <div class="card-left">
             <div class="card-category ${catClass}">${a.categorie||'Général'}</div>
             <div class="card-title">${a.titre}</div>
+            ${a.description?'<p class="card-desc">'+a.description+'</p>':''}
             <div class="card-meta">
               ${stars?'<span class="stars">'+stars+'</span>':''}
               ${a.lang?'<span class="lang">🔷 '+a.lang+'</span>':''}
@@ -281,7 +286,6 @@ function renderArticles(filter){
           <div class="card-arrow">▾</div>
         </div>
         <div class="card-body">
-          <p>${a.description}</p>
           <div class="card-stats">
             ${a.forks>0?'🍴 '+a.forks+' forks':''}
             ${a.issues>0?'🔧 '+a.issues+' issues':''}
